@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Shlok Bam</h1>
 <h3 align="center">👋 Hi there! I'm an Information Technology student at Vishwakarma Institute of Technology, pursuing my B.Tech degree. Originally from Madhya Pradesh, I have a strong foundation in IT and a passion for technology. My strengths lie in my technical skills, paired with excellent communication abilities. I'm excited about contributing to innovative projects, collaborating with other developers, and continuously learning in the ever-evolving tech landscape. Let's connect and build something amazing together!</h3>
 
-- 🌱 I’m currently learning **Web Development**
+- 🌱 I’m currently learning **Web Development** and **Artificial Intelligence and Machine Learning**
 
 - 👨‍💻 All of my projects are available at [https://github.com/shlokbam](https://github.com/shlokbam)
 
