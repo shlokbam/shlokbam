@@ -1,9 +1,11 @@
 <h1 align="center">Hi 👋, I'm Shlok Bam</h1>
 <h3 align="center">👋 Hi there! I'm an Information Technology student at Vishwakarma Institute of Technology, pursuing my B.Tech degree. Originally from Madhya Pradesh, I have a strong foundation in IT and a passion for technology. My strengths lie in my technical skills, paired with excellent communication abilities. I'm excited about contributing to innovative projects, collaborating with other developers, and continuously learning in the ever-evolving tech landscape. Let's connect and build something amazing together!</h3>
 
-- 🌱 I’m currently learning **Web Development** and **AI/ML**
+- 🌱 I’m currently learning **Web Development**
 
 - 👨‍💻 All of my projects are available at [https://github.com/shlokbam](https://github.com/shlokbam)
+
+- 📝 I regularly write articles on [https://vitpune.hashnode.dev/the-epic-saga-of-web-frameworks-from-clunky-code-to-ai-superpowers](https://vitpune.hashnode.dev/the-epic-saga-of-web-frameworks-from-clunky-code-to-ai-superpowers)
 
 - 📫 How to reach me **shlokbam19103@gmail.com**
 
@@ -11,6 +13,7 @@
 <p align="left">
 <a href="https://linkedin.com/in/shlokbam" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="shlokbam" height="30" width="40" /></a>
 <a href="https://stackoverflow.com/users/25452267" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="25452267" height="30" width="40" /></a>
+<a href="https://hashnode.com/shlokbam05" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hashnode.svg" alt="shlokbam05" height="30" width="40" /></a>
 <a href="https://medium.com/@shlokbam05" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@shlokbam05" height="30" width="40" /></a>
 <a href="https://www.codechef.com/users/shlokbam" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="shlokbam" height="30" width="40" /></a>
 <a href="https://www.hackerrank.com/shlokbam19103" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="shlokbam19103" height="30" width="40" /></a>
