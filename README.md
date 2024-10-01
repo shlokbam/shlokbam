@@ -5,8 +5,6 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/shlokbam](https://github.com/shlokbam)
 
-- 📝 I regularly write articles on [https://vitpune.hashnode.dev/the-epic-saga-of-web-frameworks-from-clunky-code-to-ai-superpowers](https://vitpune.hashnode.dev/the-epic-saga-of-web-frameworks-from-clunky-code-to-ai-superpowers)
-
 - 📫 How to reach me **shlokbam19103@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
