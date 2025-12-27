@@ -27,3 +27,109 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=shlokbam&show_icons=true&locale=en" alt="shlokbam" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=shlokbam&" alt="shlokbam" /></p>
+
+
+
+
+
+
+
+
+
+# Hi there, I'm Shlok Bam 👋
+
+**Information Technology Student | Full-Stack Developer | Cloud Enthusiast | Data Analyst**
+
+I'm pursuing my B.Tech in Information Technology at Vishwakarma Institute of Technology. Originally from Madhya Pradesh, I'm passionate about building scalable web applications, leveraging cloud technologies, and extracting insights from data. Currently seeking internship opportunities to apply my skills and contribute to innovative projects.
+
+🌐 **Portfolio:** [portfolio-edaa.onrender.com](https://portfolio-edaa.onrender.com/)
+
+---
+
+## 🎯 What I'm Up To
+
+- 💻 Building full-stack web applications with modern frameworks
+- ☁️ Exploring cloud computing with AWS and GCP
+- 📊 Analyzing data to derive actionable insights
+- 🔍 Actively seeking internship opportunities in Full-Stack Development, Cloud Engineering, and Data Analytics
+
+---
+
+## 🚀 Featured Projects
+
+### 🔐 [AutoVault](https://github.com/shlokbam/autovault)
+**Secure File Storage with Automated Expiry Management**
+
+A cloud-native file storage application built with Flask and AWS, featuring time-limited storage, automated expiry notifications, and seamless cloud migration capabilities.
+
+- 🔒 Secure user authentication with password hashing
+- ⏰ Custom file expiry settings with automated cleanup
+- 📧 Email notifications 24 hours before expiry
+- ☁️ Dual storage mode: Local filesystem or AWS S3
+- 🗄️ Flexible database: SQLite or PostgreSQL/RDS
+
+### 📈 [Real-Time Smart TKPH Monitoring System](https://github.com/shlokbam/tkph-monitoring)
+**Predictive Maintenance for Heavy Machinery**
+
+A comprehensive solution for monitoring Ton-Kilometers Per Hour (TKPH) values and predicting maintenance needs using machine learning.
+
+- 📊 Real-time dashboard with live tracking and dynamic graphs
+- 🤖 ML-powered predictions for tire wear and failure risk
+- 🔥 Firebase Realtime Database integration
+- 📉 Historical data analysis and visualization
+
+**[Live Demo](https://real-time-smart-tkph-monitoring-and.onrender.com/)**
+
+### 🤖 [FormMate AI - Chrome Extension](https://github.com/shlokbam/formmate-ai)
+**Intelligent Google Forms Auto-Fill Assistant**
+
+A Chrome extension that automatically fills Google Forms using your personal knowledge base and AI-powered question matching.
+
+- ✨ Smart question-answer matching algorithm
+- 🔐 Secure Firebase Authentication
+- 💾 Personal Q&A management system
+- ⚡ One-click form filling
+
+**[Chrome Web Store](https://chromewebstore.google.com/detail/formmate-ai/pdkfcjpmfhoecmipgadlagbmammoocll)**
+
+---
+
+## 🛠️ Technical Skills
+
+**Languages:** JavaScript, Python, C, C++, PHP, HTML, CSS
+
+**Web Development:** React, Node.js, Bootstrap, Flask
+
+**Cloud & DevOps:** AWS (S3, RDS, Lambda, EventBridge), Google Cloud Platform, Git
+
+**Data Analysis:** Pandas, Tableau, Google Analytics, NumPy, Matplotlib
+
+**Databases:** MongoDB, MySQL, PostgreSQL, SQLite, Firebase
+
+**Tools & Frameworks:** OpenCV, Arduino, Figma, scikit-learn
+
+---
+
+## 📫 Get In Touch
+
+- 📧 Email: [shlokbam19103@gmail.com](mailto:shlokbam19103@gmail.com)
+- 💼 LinkedIn: [linkedin.com/in/shlokbam](https://linkedin.com/in/shlokbam)
+- 📝 Medium: [@shlokbam05](https://medium.com/@shlokbam05)
+- 💻 LeetCode: [shlokbam05](https://www.leetcode.com/shlokbam05)
+- 🏆 CodeChef: [shlokbam](https://www.codechef.com/users/shlokbam)
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=shlokbam&show_icons=true&theme=default&hide_border=true" alt="GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shlokbam&theme=default&hide_border=true" alt="GitHub Streak" />
+</p>
+
+---
+
+💡 *Open to collaborations and always eager to learn new technologies. Let's build something amazing together!*
