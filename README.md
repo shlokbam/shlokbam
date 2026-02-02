@@ -2,9 +2,9 @@
 
 ### Building AI, Data & Cloud-Powered Applications | BTech in Information Technology @ VIT Pune
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=shlokbam&label=Profile views&color=0e75b6&style=flat" alt="shlokbam" /> </p>
+<!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=shlokbam&label=Profile views&color=0e75b6&style=flat" alt="shlokbam" /> </p> -->
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=shlokbam" alt="shlokbam" /></a> </p>
+<!-- <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=shlokbam" alt="shlokbam" /></a> </p> -->
 
 - 🔭 I'm currently working on **cloud-based automation tools, AI-powered assistants, and scalable web applications**
 
