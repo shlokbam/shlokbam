@@ -20,8 +20,6 @@
 
 - 👨‍💻 All of my projects are available at **[https://portfolio-edaa.onrender.com/](https://portfolio-edaa.onrender.com/)**
 
-- 📄 Know about my experiences **[https://drive.google.com/file/d/1D8SWLZZ_J6lQi4giZ8POeKDC2E855Xlb/view?usp=sharing](https://drive.google.com/file/d/1D8SWLZZ_J6lQi4giZ8POeKDC2E855Xlb/view?usp=sharing)**
-
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://github.com/shlokbam" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="shlokbam" height="30" width="40" /></a>
