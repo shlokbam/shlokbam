@@ -41,3 +41,5 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=shlokbam&show_icons=true&locale=en" alt="shlokbam" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=shlokbam&" alt="shlokbam" /></p>
+
+[![shlokbam's LeetCode Stats](https://coding-profile.vercel.app/api/check?username=shlokbam&theme=Light)](https://github.com/Pranshu321/coding-profiles)
