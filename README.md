@@ -1,118 +1,124 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:ff6b6b,50:ffd93d,100:6bcb77&height=220&section=header&text=Shlok%20Bam&fontSize=65&fontColor=ffffff&fontAlignY=40&desc=AI%20%E2%80%A2%20Cloud%20%E2%80%A2%20Data%20%E2%80%A2%20Builder&descAlignY=60&descSize=20&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:00ff41,100:003b00&height=180&section=header&text=SHLOK_BAM&fontSize=55&fontColor=00ff41&fontAlignY=50&desc=%5B+AI+%7C+CLOUD+%7C+DATA+%5D&descAlignY=72&descSize=16&descColor=00cc33&animation=blinking" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Nunito&weight=800&size=22&duration=2500&pause=600&color=FF6B6B&center=true&vCenter=true&width=700&lines=Hey!+I'm+Shlok+%F0%9F%91%8B;I+build+AI-powered+apps+%F0%9F%A4%96;Cloud+%7C+Data+%7C+Full-Stack+Dev+%E2%98%81%EF%B8%8F;Always+learning+%F0%9F%8C%B1;Let's+build+something+cool!+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&duration=2000&pause=500&color=00FF41&center=true&vCenter=true&width=700&lines=%24+whoami+%E2%86%92+Shlok+Bam+%5BVIT+Pune%5D;%24+skills+%E2%86%92+AI+%7C+Cloud+%7C+Data+%7C+Full-Stack;%24+status+%E2%86%92+Building+AI-powered+tools;%24+location+%E2%86%92+Pune%2C+India;%24+sudo+hire+--me+%5B+open+to+collabs+%5D" alt="Typing SVG" />
 </a>
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-FF6B6B?style=for-the-badge)](https://portfolio-edaa.onrender.com/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shlokbam)
-[![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shlokbam19103@gmail.com)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/shlokbam05)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/Shlokbam)
-[![GFG](https://img.shields.io/badge/GeeksForGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://auth.geeksforgeeks.org/user/Shlokbam)
+[![Portfolio](https://img.shields.io/badge/[_PORTFOLIO_]-00FF41?style=flat-square&logoColor=black)](https://portfolio-edaa.onrender.com/)
+[![LinkedIn](https://img.shields.io/badge/[_LINKEDIN_]-00FF41?style=flat-square&logoColor=black)](https://linkedin.com/in/shlokbam)
+[![Email](https://img.shields.io/badge/[_EMAIL_]-00FF41?style=flat-square&logoColor=black)](mailto:shlokbam19103@gmail.com)
+[![LeetCode](https://img.shields.io/badge/[_LEETCODE_]-00FF41?style=flat-square&logoColor=black)](https://leetcode.com/shlokbam05)
+[![GFG](https://img.shields.io/badge/[_GFG_]-00FF41?style=flat-square&logoColor=black)](https://auth.geeksforgeeks.org/user/Shlokbam)
+[![Medium](https://img.shields.io/badge/[_MEDIUM_]-00FF41?style=flat-square&logoColor=black)](https://medium.com/Shlokbam)
 
 </div>
 
 ---
 
-## 🙋‍♂️ Who Am I?
-
-<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="280" />
-
-- 🎓 **BTech IT** @ VIT Pune
-- 🔭 Working on **cloud automation + AI assistants**
-- 🌱 Learning **cloud architecture & applied ML**
-- 🤝 Looking to collaborate on **open-source AI & data projects**
-- 💬 Ask me about **Python, Flask, AWS, ML, Web Dev**
-- 📍 Based in **Pune, India 🇮🇳**
-- ⚡ I turn real-world problems into simple tech solutions!
-
-<br clear="right"/>
+```bash
+╔══════════════════════════════════════════════════════════════════╗
+║                        SYSTEM PROFILE                          ║
+╠══════════════════════════════════════════════════════════════════╣
+║  USER       : Shlok Bam                                        ║
+║  ROLE       : AI / Cloud / Data Engineer                       ║
+║  INSTITUTE  : VIT Pune — BTech Information Technology          ║
+║  LOCATION   : Pune, India 🇮🇳                                  ║
+║  STATUS     : Building cloud automation + AI assistants        ║
+║  LEARNING   : Cloud Architecture | Applied Machine Learning    ║
+║  COLLAB     : Open-source AI tools | Data Engineering          ║
+╚══════════════════════════════════════════════════════════════════╝
+```
 
 ---
 
-## 🚀 Featured Projects
+## `> ls ./projects`
+
+```
+drwxr-xr-x  MockVue/            → AI mock interview: speech recognition + face tracking
+drwxr-xr-x  ai-data-analyst/    → CSV upload → Gemini AI insights + auto-generated charts
+drwxr-xr-x  flask-todo-app/     → Docker + Terraform + Jenkins CI/CD pipeline on AWS EC2
+drwxr-xr-x  NotesVault/         → Full-stack academic resource manager for students
+drwxr-xr-x  TKPH-Monitor/       → Real-time predictive maintenance for heavy machinery
+drwxr-xr-x  Portfolio/          → Responsive personal portfolio built with Flask
+```
+
+> **[OPEN PROJECT ↗]**
+> [MockVue](https://github.com/shlokbam/MockVue) · [AI-Data-Analyst](https://github.com/shlokbam/ai-data-analyst) · [flask-todo-app](https://github.com/shlokbam/flask-todo-app) · [NotesVault](https://github.com/shlokbam/NotesVault) · [Portfolio](https://github.com/shlokbam/Portfolio)
+
+---
+
+## `> cat tech_stack.yaml`
+
+```yaml
+# ══════════════════════════════════════════
+# SHLOK BAM :: TECH STACK v2025
+# ══════════════════════════════════════════
+
+LANGUAGES:
+  - Python        # primary weapon of choice
+  - JavaScript    # front + back
+  - Java | C++    # DSA & systems
+  - PHP           # web backends
+
+AI_ML_STACK:
+  - TensorFlow | PyTorch | Keras
+  - Scikit-learn | HuggingFace
+  - OpenCV | Pandas | NumPy
+  - Matplotlib | Seaborn
+
+CLOUD_DEVOPS:
+  - AWS | GCP
+  - Docker | Kubernetes
+  - Jenkins | Terraform
+  - Firebase | Git
+
+FRAMEWORKS:
+  - Flask | Node.js | Laravel
+  - Streamlit | Bootstrap | Tailwind
+
+DATABASES:
+  - MySQL | SQLite
+```
+
+---
+
+## `> ./stats --display`
 
 <div align="center">
 
-| 🎯 | Project | Description | Tech |
-|:--:|---------|-------------|------|
-| 🎙 | [**MockVue**](https://github.com/shlokbam/MockVue) | AI mock interview with speech recognition & face tracking | JS · Groq |
-| 📊 | [**AI Data Analyst**](https://github.com/shlokbam/ai-data-analyst) | CSV → AI insights & auto-charts via Gemini | Python · Flask |
-| ⚙️ | [**flask-todo-app**](https://github.com/shlokbam/flask-todo-app) | DevOps pipeline: Docker + Terraform + Jenkins on AWS | Flask · AWS |
-| 📚 | [**NotesVault**](https://github.com/shlokbam/NotesVault) | Academic resource manager for students | HTML · Flask |
-| 🏗 | [**TKPH Monitor**](https://github.com/shlokbam/Real-Time-Smart-TKPH-Monitoring-and-Predictive-Maintenance-System-for-Heavy-Machinery) | Real-time predictive maintenance for heavy machinery | Python · ML |
-| 🌐 | [**Portfolio**](https://github.com/shlokbam/Portfolio) | Responsive personal portfolio site | Flask · CSS |
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=shlokbam&show_icons=true&theme=chartreuse-dark&bg_color=0a0a0a&title_color=00ff41&text_color=00cc33&icon_color=00ff41&border_color=00ff41&hide_border=false" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shlokbam&layout=compact&theme=chartreuse-dark&bg_color=0a0a0a&title_color=00ff41&text_color=00cc33&border_color=00ff41" />
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=shlokbam&theme=chartreuse-dark&background=0a0a0a&ring=00ff41&fire=00ff41&currStreakLabel=00cc33&sideLabels=00cc33&border=00ff41" />
+
+<br/>
+
+<img src="https://leetcard.jacoblin.cool/shlokbam05?theme=dark&font=Share+Tech+Mono&ext=heatmap&border=0&radius=0" />
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=shlokbam&theme=react&bg_color=0a0a0a&color=00ff41&line=00cc33&point=00ff41&hide_border=false&border_color=00ff41" />
 
 </div>
 
 ---
 
-## 🛠️ My Toolkit
-
-### 💻 Languages
-![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=black)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/Java-FF6B35?style=for-the-badge&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-8892BF?style=for-the-badge&logo=php&logoColor=white)
-
-### 🧠 AI / ML
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-
-### ☁️ Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-
-### 🌐 Frameworks & Tools
-![Flask](https://img.shields.io/badge/Flask-6BCB77?style=for-the-badge&logo=flask&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-
----
-
-## 📊 Stats Dashboard
+```bash
+$ echo "Thanks for visiting. Let's build the future together."
+> Thanks for visiting. Let's build the future together.
+$ █
+```
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=shlokbam&show_icons=true&theme=radical&hide_border=true&bg_color=0d0d0d" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shlokbam&layout=compact&theme=radical&hide_border=true&bg_color=0d0d0d" />
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:003b00,100:00ff41&height=100&section=footer" />
 
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=shlokbam&theme=radical&hide_border=true&background=0d0d0d" />
-
-<br/>
-
-<img src="https://leetcard.jacoblin.cool/shlokbam05?theme=nord&font=Nunito&ext=heatmap&border=0&radius=8" />
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=shlokbam&theme=redical&hide_border=true&bg_color=0d0d0d&color=ff6b6b&line=ffd93d&point=6bcb77" />
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6bcb77,50:ffd93d,100:ff6b6b&height=120&section=footer" />
-
-<img src="https://komarev.com/ghpvc/?username=shlokbam&style=for-the-badge&color=FF6B6B&label=PROFILE+VIEWS" />
-
-*✨ Thanks for visiting! Let's connect and build something awesome together! ✨*
+<img src="https://komarev.com/ghpvc/?username=shlokbam&style=flat-square&color=00ff41&label=SESSIONS_LOGGED" />
 
 </div>
