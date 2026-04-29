@@ -97,10 +97,6 @@
 
 <br/>
 
-<img src="https://leetcard.jacoblin.cool/shlokbam05?theme=nord&font=Nunito&ext=heatmap&border=0&radius=8" />
-
-<br/>
-
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=shlokbam&theme=redical&hide_border=true&bg_color=0d0d0d&color=ff6b6b&line=ffd93d&point=6bcb77" />
 
 </div>
