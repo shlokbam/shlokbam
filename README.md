@@ -1,151 +1,107 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:e8f4f8,100:dfe6f0&height=180&section=header&text=Shlok%20Bam&fontSize=58&fontColor=2d3748&fontAlignY=45&desc=AI%20%C2%B7%20Cloud%20%C2%B7%20Data%20Engineering&descAlignY=65&descSize=18&descColor=718096" />
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:ff6b6b,50:ffd93d,100:6bcb77&height=220&section=header&text=Shlok%20Bam&fontSize=65&fontColor=ffffff&fontAlignY=40&desc=AI%20%E2%80%A2%20Cloud%20%E2%80%A2%20Data%20%E2%80%A2%20Builder&descAlignY=60&descSize=20&animation=fadeIn" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=DM+Sans&weight=500&size=18&duration=3000&pause=800&color=4A5568&center=true&vCenter=true&width=650&lines=Building+AI-powered+applications;Cloud+%26+Data+Engineering+%40+VIT+Pune;Open+to+collaborations+%26+open-source" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Nunito&weight=800&size=22&duration=2500&pause=600&color=FF6B6B&center=true&vCenter=true&width=700&lines=Hey!+I'm+Shlok+%F0%9F%91%8B;I+build+AI-powered+apps+%F0%9F%A4%96;Cloud+%7C+Data+%7C+Full-Stack+Dev+%E2%98%81%EF%B8%8F;Always+learning+%F0%9F%8C%B1;Let's+build+something+cool!+%F0%9F%9A%80" alt="Typing SVG" />
 </a>
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-2D3748?style=flat-square&logo=vercel&logoColor=white)](https://portfolio-edaa.onrender.com/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-2D3748?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/shlokbam)
-[![Email](https://img.shields.io/badge/Email-2D3748?style=flat-square&logo=gmail&logoColor=white)](mailto:shlokbam19103@gmail.com)
-[![LeetCode](https://img.shields.io/badge/LeetCode-2D3748?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/shlokbam05)
-[![GFG](https://img.shields.io/badge/GFG-2D3748?style=flat-square&logo=geeksforgeeks&logoColor=white)](https://auth.geeksforgeeks.org/user/Shlokbam)
-[![Medium](https://img.shields.io/badge/Medium-2D3748?style=flat-square&logo=medium&logoColor=white)](https://medium.com/Shlokbam)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-FF6B6B?style=for-the-badge)](https://portfolio-edaa.onrender.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shlokbam)
+[![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shlokbam19103@gmail.com)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/shlokbam05)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/Shlokbam)
+[![GFG](https://img.shields.io/badge/GeeksForGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://auth.geeksforgeeks.org/user/Shlokbam)
 
 </div>
 
-<br/>
+---
 
-## About
+## 🙋‍♂️ Who Am I?
 
-<img align="right" src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="240" />
+<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="280" />
 
-BTech Information Technology student at VIT Pune, focused on building practical solutions at the intersection of AI, cloud infrastructure, and data engineering.
-
-**Currently working on** cloud-based automation tools, AI-powered assistants, and scalable web applications.
-
-**Looking to collaborate on** open-source AI tools and data engineering projects.
-
-📍 Pune, India &nbsp;·&nbsp; 📬 [shlokbam19103@gmail.com](mailto:shlokbam19103@gmail.com)
+- 🎓 **BTech IT** @ VIT Pune
+- 🔭 Working on **cloud automation + AI assistants**
+- 🌱 Learning **cloud architecture & applied ML**
+- 🤝 Looking to collaborate on **open-source AI & data projects**
+- 💬 Ask me about **Python, Flask, AWS, ML, Web Dev**
+- 📍 Based in **Pune, India 🇮🇳**
+- ⚡ I turn real-world problems into simple tech solutions!
 
 <br clear="right"/>
 
 ---
 
-## Featured Work
-
-<table>
-<tr>
-<td width="50%">
-
-**[MockVue](https://github.com/shlokbam/MockVue)**
-AI mock interview platform. Uses speech recognition, Groq Whisper, and face-tracking to give real-time delivery feedback.
-`JavaScript` `Groq` `AI`
-
-</td>
-<td width="50%">
-
-**[AI Data Analyst](https://github.com/shlokbam/ai-data-analyst)**
-Upload a CSV and instantly get AI-generated charts and insights powered by Gemini / Vertex AI.
-`Python` `Flask` `Gemini AI`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**[flask-todo-app](https://github.com/shlokbam/flask-todo-app)**
-End-to-end DevOps project: Dockerized Flask app deployed on AWS EC2 via Terraform & Jenkins CI/CD.
-`Docker` `Terraform` `AWS` `Jenkins`
-
-</td>
-<td width="50%">
-
-**[NotesVault](https://github.com/shlokbam/NotesVault)**
-Full-stack platform for managing academic notes, past papers, and syllabus documents.
-`HTML` `Flask` `MySQL`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**[TKPH Monitor](https://github.com/shlokbam/Real-Time-Smart-TKPH-Monitoring-and-Predictive-Maintenance-System-for-Heavy-Machinery)**
-Real-time condition monitoring and predictive maintenance system for heavy machinery using sensor data.
-`Python` `ML` `IoT`
-
-</td>
-<td width="50%">
-
-**[Portfolio](https://github.com/shlokbam/Portfolio)**
-Fully responsive personal portfolio with project showcases, skills, and contact sections.
-`Flask` `CSS` `JavaScript`
-
-</td>
-</tr>
-</table>
-
----
-
-## Tech Stack
-
-**Languages**
-&nbsp;
-![Python](https://img.shields.io/badge/Python-2D3748?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-2D3748?style=flat-square&logo=javascript&logoColor=white)
-![Java](https://img.shields.io/badge/Java-2D3748?style=flat-square&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-2D3748?style=flat-square&logo=cplusplus&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-2D3748?style=flat-square&logo=php&logoColor=white)
-
-**AI / ML**
-&nbsp;
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2D3748?style=flat-square&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-2D3748?style=flat-square&logo=pytorch&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-2D3748?style=flat-square&logo=scikit-learn&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-2D3748?style=flat-square&logo=huggingface&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-2D3748?style=flat-square&logo=opencv&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-2D3748?style=flat-square&logo=pandas&logoColor=white)
-
-**Cloud & DevOps**
-&nbsp;
-![AWS](https://img.shields.io/badge/AWS-2D3748?style=flat-square&logo=amazonaws&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-2D3748?style=flat-square&logo=googlecloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2D3748?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-2D3748?style=flat-square&logo=kubernetes&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-2D3748?style=flat-square&logo=jenkins&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-2D3748?style=flat-square&logo=firebase&logoColor=white)
-
-**Frameworks & Tools**
-&nbsp;
-![Flask](https://img.shields.io/badge/Flask-2D3748?style=flat-square&logo=flask&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-2D3748?style=flat-square&logo=nodedotjs&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-2D3748?style=flat-square&logo=streamlit&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-2D3748?style=flat-square&logo=tailwindcss&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-2D3748?style=flat-square&logo=figma&logoColor=white)
-
----
-
-## GitHub Stats
+## 🚀 Featured Projects
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=shlokbam&show_icons=true&theme=default&hide_border=true&title_color=2d3748&text_color=4a5568&icon_color=2d3748" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shlokbam&layout=compact&theme=default&hide_border=true&title_color=2d3748&text_color=4a5568" />
+| 🎯 | Project | Description | Tech |
+|:--:|---------|-------------|------|
+| 🎙 | [**MockVue**](https://github.com/shlokbam/MockVue) | AI mock interview with speech recognition & face tracking | JS · Groq |
+| 📊 | [**AI Data Analyst**](https://github.com/shlokbam/ai-data-analyst) | CSV → AI insights & auto-charts via Gemini | Python · Flask |
+| ⚙️ | [**flask-todo-app**](https://github.com/shlokbam/flask-todo-app) | DevOps pipeline: Docker + Terraform + Jenkins on AWS | Flask · AWS |
+| 📚 | [**NotesVault**](https://github.com/shlokbam/NotesVault) | Academic resource manager for students | HTML · Flask |
+| 🏗 | [**TKPH Monitor**](https://github.com/shlokbam/Real-Time-Smart-TKPH-Monitoring-and-Predictive-Maintenance-System-for-Heavy-Machinery) | Real-time predictive maintenance for heavy machinery | Python · ML |
+| 🌐 | [**Portfolio**](https://github.com/shlokbam/Portfolio) | Responsive personal portfolio site | Flask · CSS |
+
+</div>
+
+---
+
+## 🛠️ My Toolkit
+
+### 💻 Languages
+![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-FF6B35?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-8892BF?style=for-the-badge&logo=php&logoColor=white)
+
+### 🧠 AI / ML
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+
+### ☁️ Cloud & DevOps
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+
+### 🌐 Frameworks & Tools
+![Flask](https://img.shields.io/badge/Flask-6BCB77?style=for-the-badge&logo=flask&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+
+---
+
+## 📊 Stats Dashboard
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=shlokbam&show_icons=true&theme=radical&hide_border=true&bg_color=0d0d0d" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shlokbam&layout=compact&theme=radical&hide_border=true&bg_color=0d0d0d" />
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=shlokbam&theme=default&hide_border=true&ring=2d3748&fire=4a5568&currStreakLabel=2d3748&sideLabels=4a5568" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=shlokbam&theme=radical&hide_border=true&background=0d0d0d" />
 
 <br/>
 
-<img src="https://leetcard.jacoblin.cool/shlokbam05?theme=light&font=DM+Sans&ext=heatmap&border=0&radius=6" />
+<img src="https://leetcard.jacoblin.cool/shlokbam05?theme=nord&font=Nunito&ext=heatmap&border=0&radius=8" />
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=shlokbam&theme=minimal&hide_border=true&color=2d3748&line=4a5568&point=2d3748" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=shlokbam&theme=redical&hide_border=true&bg_color=0d0d0d&color=ff6b6b&line=ffd93d&point=6bcb77" />
 
 </div>
 
@@ -153,10 +109,10 @@ Fully responsive personal portfolio with project showcases, skills, and contact 
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:dfe6f0,100:e8f4f8&height=80&section=footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6bcb77,50:ffd93d,100:ff6b6b&height=120&section=footer" />
 
-<img src="https://komarev.com/ghpvc/?username=shlokbam&style=flat-square&color=2d3748&label=profile+views" />
+<img src="https://komarev.com/ghpvc/?username=shlokbam&style=for-the-badge&color=FF6B6B&label=PROFILE+VIEWS" />
 
-*Thanks for stopping by — feel free to reach out or star a project!*
+*✨ Thanks for visiting! Let's connect and build something awesome together! ✨*
 
 </div>
