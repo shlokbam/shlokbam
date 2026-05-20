@@ -131,7 +131,7 @@ DSA • OOP • DBMS • Operating Systems • Computer Networks
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6bcb77,50:ffd93d,100:ff6b6b&height=120&section=footer" />
 
-<img src="https://komarev.com/ghpvc/?username=shlokbam&style=for-the-badge&color=FF6B6B&label=PROFILE+VIEWS" />
+<!-- <img src="https://komarev.com/ghpvc/?username=shlokbam&style=for-the-badge&color=FF6B6B&label=PROFILE+VIEWS" /> -->
 
 *✨ Thanks for visiting! Let's connect and build something awesome together! ✨*
 
