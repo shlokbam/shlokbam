@@ -29,7 +29,7 @@
 - 🔭 Working on **cloud automation + AI assistants**
 - 🌱 Learning **cloud architecture & applied ML**
 - 🤝 Looking to collaborate on **open-source AI & data projects**
-- 💬 Ask me about **Python, Flask, AWS, ML, Web Dev**
+- 💬 Ask me about **Python, ReactJS, AWS, ML, Web Dev**
 - 📍 Based in **Pune, India 🇮🇳**
 - ⚡ I turn real-world problems into simple tech solutions!
 
