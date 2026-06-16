@@ -45,8 +45,8 @@
 | 🎯 | Project | Description | Tech |
 |:--:|---------|-------------|------|
 | 🎙 | [**MockVue**](https://github.com/shlokbam/MockVue) | AI mock interview platform – 330+ questions from 13 companies, AI scoring on content/filler words/eye contact | Python · FastAPI · React · Groq |
-| 🤖 | [**Multi-Agent AI Research**](https://github.com/shlokbam/multi-agent-research) | 4-agent pipeline (Search → Read → Write → Critique) streamed live via SSE | Python · LangChain · Mistral · FastAPI |
-| 🏫 | [**Training & Reporting System**](https://github.com/shlokbam/training-reporting-system) | Enterprise LMS with trainer/trainee dashboards, PDF watermarking & JWT auth | FastAPI · MySQL · ReactJS · React Native |
+| 🤖 | [**Multi-Agent AI Research**](https://github.com/shlokbam/Multi_Agent_AI_Research_System) | 4-agent pipeline (Search → Read → Write → Critique) streamed live via SSE | Python · LangChain · Mistral · FastAPI |
+| 🏫 | [**Training & Reporting System**](https://github.com/shlokbam/lms) | Enterprise LMS with trainer/trainee dashboards, PDF watermarking & JWT auth | FastAPI · MySQL · ReactJS · React Native |
 | 📊 | [**AI Data Analyst**](https://github.com/shlokbam/ai-data-analyst) | CSV → AI insights & auto-charts via Gemini | Python · Flask |
 | ⚙️ | [**flask-todo-app**](https://github.com/shlokbam/flask-todo-app) | DevOps pipeline: Docker + Terraform + Jenkins on AWS | Flask · AWS |
 | 🏗 | [**TKPH Monitor**](https://github.com/shlokbam/Real-Time-Smart-TKPH-Monitoring-and-Predictive-Maintenance-System-for-Heavy-Machinery) | Real-time predictive maintenance for heavy machinery | Python · ML |
