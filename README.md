@@ -38,18 +38,6 @@
 
 ---
 
-## 💼 Experience & Leadership
-
-### 🏥 PharmaACE Innovations — *Analytics Intern* `June 2026 – Present`
-- Building a **healthcare provider matching system** using NLP, semantic search, fuzzy matching & ML to improve NPI identification accuracy
-- Designing a **scheduled ETL pipeline** that processes ~7M+ NPPES registry records, deployed on AWS (EC2, S3, Lambda, RDS)
-
-### 🏛️ IT Student's Association (ITSA) — *Chairperson* `July 2025 – Present`
-- Led a **50+ member team** organizing AI workshops & mock interview sessions, reaching **1,000+ students**
-- Handled end-to-end event planning, speaker coordination, and team task management
-
----
-
 ## 🚀 Featured Projects
 
 <div align="center">
@@ -120,16 +108,6 @@
 
 ### 📚 Core Concepts
 `DSA` `OOP` `DBMS` `Operating Systems` `Computer Networks` `Multi-Agent Systems`
-
----
-
-## 🏆 Achievements & Certifications
-
-| 🥇 | Achievement |
-|:--:|-------------|
-| 🏆 | **Winner – INDOvateAI Sprint 2025** · Best Outstanding Project among 200+ teams |
-| ☁️ | **AWS Cloud Practitioner Essentials** · AWS Training & Certification |
-| 📈 | **McKinsey Forward Program** · McKinsey.org |
 
 ---
 
