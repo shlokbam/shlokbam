@@ -24,7 +24,7 @@
 
 <img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="280" />
 
-- 🎓 **BTech IT** @ VIT Pune | CGPA: **9.01/10**
+- 🎓 **BTech IT** @ VIT Pune
 - 💼 **Analytics Intern** @ PharmaACE Innovations *(June 2026 – Present)*
 - 🏛️ **Former Chairperson**, IT Student's Association – VIT Pune
 - 🔭 Working on **healthcare data pipelines + AI agents**
