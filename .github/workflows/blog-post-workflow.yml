@@ -1,0 +1,21 @@
+name: Latest blog post workflow
+on:
+  schedule:
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme-with-blog:
+    name: Update README with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Pull in Hashnode posts
+        uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          comment_tag_name: 'BLOG-POST-LIST'
+          feed_list: 'https://shlokbam.hashnode.dev/rss.xml'
+          max_post_count: 5
