@@ -8,6 +8,10 @@
 
 <br/>
 
+![Profile Views](https://komarev.com/ghpvc/?username=shlokbam&style=for-the-badge&color=ff6b6b&label=PROFILE+VIEWS&base=timestamp)
+
+<br/>
+
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-FF6B6B?style=for-the-badge)](https://portfolio-edaa.onrender.com/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shlokbam)
 [![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shlokbam19103@gmail.com)
@@ -25,7 +29,7 @@
 <img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="280" />
 
 - 🎓 **BTech IT** @ VIT Pune
-- 💼 **Analytics Intern** @ PharmaACE Innovations *(June 2026 – Present)*
+- 💼 **Analytics Intern** @ PharmaACE Innovations
 - 🏛️ **Former Chairperson**, IT Student's Association – VIT Pune
 - 🔭 Working on **healthcare data pipelines + AI agents**
 - 🌱 Learning **RAG architecture & applied ML at scale**
@@ -115,8 +119,9 @@
 
 > I write about AI, cloud, and full-stack dev on Hashnode & Medium
 
-<!-- You can use a GitHub Action like hashnode-blog-post-workflow to auto-update this -->
+<!-- BLOG-POST-LIST:START -->
 - 📖 [Check out my Hashnode blog →](https://shlokbam.hashnode.dev/)
+<!-- BLOG-POST-LIST:END -->
 - 📖 [Read on Medium →](https://medium.com/Shlokbam)
 
 ---
@@ -149,7 +154,7 @@
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=shlokbam&theme=redical&hide_border=true&bg_color=0d0d0d&color=ff6b6b&line=ffd93d&point=6bcb77" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=shlokbam&theme=radical&hide_border=true&bg_color=0d0d0d&color=ff6b6b&line=ffd93d&point=6bcb77" />
   <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=shlokbam&theme=github&hide_border=true" />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=shlokbam&theme=github&hide_border=true" />
 </picture>
