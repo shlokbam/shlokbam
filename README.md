@@ -120,7 +120,9 @@
 > I write about AI, cloud, and full-stack dev on Hashnode & Medium
 
 <!-- BLOG-POST-LIST:START -->
-- 📖 [Check out my Hashnode blog →](https://shlokbam.hashnode.dev/)
+- [I Built an AI-Powered Mock Interview Platform from Scratch — Here&#39;s Everything That Went Wrong](https://shlokbam.hashnode.dev/i-built-an-ai-powered-mock-interview-platform-from-scratch-here-s-everything-that-went-wrong)
+- [I Built an AI Data Analyst App from Scratch — Here&#39;s How I Taught a Flask App to Think](https://shlokbam.hashnode.dev/i-built-an-ai-data-analyst-app-from-scratch-here-s-how-i-taught-a-flask-app-to-think)
+- [I Built a Full DevOps CI/CD Pipeline from Scratch — Here&#39;s Everything That Went Wrong](https://shlokbam.hashnode.dev/i-built-a-full-devops-ci-cd-pipeline-from-scratch-here-s-everything-that-went-wrong)
 <!-- BLOG-POST-LIST:END -->
 - 📖 [Read on Medium →](https://medium.com/Shlokbam)
 
