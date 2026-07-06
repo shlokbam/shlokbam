@@ -34,7 +34,7 @@
 - 🔭 Working on **healthcare data pipelines + AI agents**
 - 🌱 Learning **RAG architecture & applied ML at scale**
 - 🤝 Open to collaborate on **open-source AI & data projects**
-- 💬 Ask me about **Python, ReactJS, FastAPI, AWS, LangChain, LangGraph & MCP**
+- 💬 Ask me about **Python, ReactJS, FastAPI, AWS, LangChain, LangGraph, LangSmith & MCP** 
 - 📍 Based in **Pune, India 🇮🇳**
 - ⚡ I turn real-world problems into simple tech solutions!
 
@@ -80,6 +80,7 @@
 ### 🧠 AI / Machine Learning
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge\&logo=langgraph\&logoColor=white)
+![LangSmith](https://img.shields.io/badge/LangSmith-1C3C3C?style=for-the-badge\&logo=langsmith\&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-Model_Context_Protocol-8A2BE2?style=for-the-badge)
 ![RAG](https://img.shields.io/badge/RAG_Architecture-FF6B6B?style=for-the-badge)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
