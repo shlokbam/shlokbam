@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:ff6b6b,50:ffd93d,100:6bcb77&height=220&section=header&text=Shlok%20Bam&fontSize=65&fontColor=ffffff&fontAlignY=40&desc=AI%20%E2%80%A2%20Cloud%20%E2%80%A2%20Data%20%E2%80%A2%20Builder&descAlignY=60&descSize=20&animation=fadeIn&stroke=333333&strokeWidth=2" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Nunito&weight=800&size=22&duration=2500&pause=600&color=FF6B6B&center=true&vCenter=true&width=700&lines=Hey!+I'm+Shlok+%F0%9F%91%8B;Analytics+Intern+%40+PharmaACE+%F0%9F%92%8A;I+build+AI-powered+apps+%F0%9F%A4%96;Cloud+%7C+Data+%7C+Full-Stack+Dev+%E2%98%81%EF%B8%8F;ITSA+Former+Chairperson+%40+VIT+Pune+%F0%9F%8E%93;Always+learning+%F0%9F%8C%B1;Let's+build+something+cool!+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Nunito&weight=800&size=22&duration=2500&pause=600&color=FF6B6B&center=true&vCenter=true&width=700&lines=Hey!+I'm+Shlok+%F0%9F%91%8B;Intern+%40+PharmaACE+%F0%9F%92%8A;I+build+AI-powered+apps+%F0%9F%A4%96;Cloud+%7C+Data+%7C+Full-Stack+Dev+%E2%98%81%EF%B8%8F;ITSA+Former+Chairperson+%40+VIT+Pune+%F0%9F%8E%93;Always+learning+%F0%9F%8C%B1;Let's+build+something+cool!+%F0%9F%9A%80" alt="Typing SVG" />
 </a>
 
 <br/> 
