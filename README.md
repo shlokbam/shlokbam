@@ -29,7 +29,7 @@
 <img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="280" />
 
 - 🎓 **BTech IT** @ VIT Pune
-- 💼 **Analytics Intern** @ PharmaACE Innovations
+- 💼 **Intern** @ PharmaACE Innovations
 - 🏛️ **Former Chairperson**, IT Student's Association – VIT Pune
 - 🔭 Working on **healthcare data pipelines + AI agents**
 - 🌱 Learning **RAG architecture & applied ML at scale**
