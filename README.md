@@ -17,7 +17,7 @@
 [![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shlokbam19103@gmail.com)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/shlokbam05)
 [![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/shlokbam)
-[![Hashnode](https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white)](https://shlokbam.hashnode.dev/)
+[![Journal](https://img.shields.io/badge/Journal-6BCB77?style=for-the-badge)](https://journal-murex-three.vercel.app/)
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/Shlokbam)
 
 </div>
@@ -120,7 +120,7 @@
 
 ## 📝 Latest Writing
 
-> I write about AI, cloud, and full-stack dev on Hashnode & Medium
+> I write about AI, cloud, and full-stack dev on my [personal journal](https://journal-murex-three.vercel.app/) & [Medium](https://medium.com/Shlokbam)
 
 <!-- BLOG-POST-LIST:START -->
 - [I Built an AI-Powered Mock Interview Platform from Scratch — Here&#39;s Everything That Went Wrong](https://shlokbam.hashnode.dev/i-built-an-ai-powered-mock-interview-platform-from-scratch-here-s-everything-that-went-wrong)

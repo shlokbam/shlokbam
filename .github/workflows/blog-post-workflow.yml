@@ -13,9 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Pull in Hashnode posts
+      - name: Pull in journal posts
         uses: gautamkrishnar/blog-post-workflow@master
         with:
           comment_tag_name: 'BLOG-POST-LIST'
-          feed_list: 'https://shlokbam.hashnode.dev/rss.xml'
+          feed_list: 'https://journal-backend-ypg5.onrender.com/rss.xml'
           max_post_count: 5
