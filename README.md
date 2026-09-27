@@ -123,9 +123,10 @@
 > I write about AI, cloud, and full-stack dev on my [personal journal](https://journal-murex-three.vercel.app/) & [Medium](https://medium.com/Shlokbam)
 
 <!-- BLOG-POST-LIST:START -->
-- [I Built an AI-Powered Mock Interview Platform from Scratch — Here&#39;s Everything That Went Wrong](https://shlokbam.hashnode.dev/i-built-an-ai-powered-mock-interview-platform-from-scratch-here-s-everything-that-went-wrong)
-- [I Built an AI Data Analyst App from Scratch — Here&#39;s How I Taught a Flask App to Think](https://shlokbam.hashnode.dev/i-built-an-ai-data-analyst-app-from-scratch-here-s-how-i-taught-a-flask-app-to-think)
-- [I Built a Full DevOps CI/CD Pipeline from Scratch — Here&#39;s Everything That Went Wrong](https://shlokbam.hashnode.dev/i-built-a-full-devops-ci-cd-pipeline-from-scratch-here-s-everything-that-went-wrong)
+- [Building Eagle LMS: How I Led a Full-Stack Industry-Sponsored Project from Napkin to Production](https://journal-murex-three.vercel.app/journal/i-built-an-enterprise-lms-with-local-cloud-devops-from-scratch-here-s-everything-that-went-wrong)
+- [I Built an AI-Powered Mock Interview Platform from Scratch — Here&#39;s Everything That Went Wrong](https://journal-murex-three.vercel.app/journal/i-built-an-ai-powered-mock-interview-platform-from-scratch-here-s-everything-that-went-wrong)
+- [I Built an AI Data Analyst App from Scratch — Here&#39;s How I Taught a Flask App to Think](https://journal-murex-three.vercel.app/journal/i-built-an-ai-data-analyst-app-from-scratch-here-s-how-i-taught-a-flask-app-to-think)
+- [I Built a Full DevOps CI/CD Pipeline from Scratch — Here&#39;s Everything That Went Wrong](https://journal-murex-three.vercel.app/journal/i-built-a-full-devops-ci-cd-pipeline-from-scratch-here-s-everything-that-went-wrong)
 <!-- BLOG-POST-LIST:END -->
 - 📖 [Read on Medium →](https://medium.com/Shlokbam)
 
