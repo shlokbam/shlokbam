@@ -12,6 +12,14 @@
 
 <br/>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shlokbam/shlokbam/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shlokbam/shlokbam/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/shlokbam/shlokbam/output/github-contribution-grid-snake.svg" />
+</picture>
+
+<br/>
+
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-FF6B6B?style=for-the-badge)](https://portfolio-edaa.onrender.com/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shlokbam)
 [![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shlokbam19103@gmail.com)
@@ -61,6 +69,10 @@
 ---
 
 ## 🛠️ My Toolkit
+
+<details open>
+<summary><b>Click to expand / collapse</b></summary>
+<br/>
 
 ### 💻 Programming Languages
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=black)
@@ -115,6 +127,8 @@
 
 ### 📚 Core Concepts
 `DSA` `OOP` `DBMS` `Operating Systems` `Computer Networks` `Multi-Agent Systems`
+
+</details>
 
 ---
 
