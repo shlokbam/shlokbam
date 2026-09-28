@@ -137,10 +137,11 @@
 > I write about AI, cloud, and full-stack dev on my [personal journal](https://journal-murex-three.vercel.app/) & [Medium](https://medium.com/Shlokbam)
 
 <!-- BLOG-POST-LIST:START -->
-- [Building Eagle LMS: How I Led a Full-Stack Industry-Sponsored Project from Napkin to Production](https://journal-murex-three.vercel.app/journal/i-built-an-enterprise-lms-with-local-cloud-devops-from-scratch-here-s-everything-that-went-wrong)
-- [I Built an AI-Powered Mock Interview Platform from Scratch — Here&#39;s Everything That Went Wrong](https://journal-murex-three.vercel.app/journal/i-built-an-ai-powered-mock-interview-platform-from-scratch-here-s-everything-that-went-wrong)
-- [I Built an AI Data Analyst App from Scratch — Here&#39;s How I Taught a Flask App to Think](https://journal-murex-three.vercel.app/journal/i-built-an-ai-data-analyst-app-from-scratch-here-s-how-i-taught-a-flask-app-to-think)
-- [I Built a Full DevOps CI/CD Pipeline from Scratch — Here&#39;s Everything That Went Wrong](https://journal-murex-three.vercel.app/journal/i-built-a-full-devops-ci-cd-pipeline-from-scratch-here-s-everything-that-went-wrong)
+- [Building Generative AI Apps with LangChain: Document Loaders, Text Splitters, ChromaDB, and LCEL](https://journal-murex-three.vercel.app/journal/building-generative-ai-apps-langchain-document-loaders-chromadb-lcel)
+- [My LangSmith Learning Log: Tracing, Debugging, and Optimizing LLM Chains and RAG Pipelines](https://journal-murex-three.vercel.app/journal/my-langsmith-learning-log-tracing-debugging-optimizing-llm-chains-rag)
+- [Hands-On Agentic AI with LangGraph: Building Sequential, Parallel, and Conditional State Workflows](https://journal-murex-three.vercel.app/journal/hands-on-agentic-ai-langgraph-sequential-parallel-conditional-workflows)
+- [Exploring Model Context Protocol &lpar;MCP&rpar;: Building AI Tools, Streamlit Clients, and emailmd Assistants](https://journal-murex-three.vercel.app/journal/exploring-model-context-protocol-mcp-ai-tools-streamlit-emailmd)
+- [My 7-Day DevOps Lab: How I Learned Terraform, Ansible, and HashiCorp Vault by Building Real Infrastructure](https://journal-murex-three.vercel.app/journal/my-7-day-devops-lab-terraform-ansible-hashicorp-vault)
 <!-- BLOG-POST-LIST:END -->
 - 📖 [Read on Medium →](https://medium.com/Shlokbam)
 
