@@ -18,7 +18,7 @@
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/shlokbam/shlokbam/output/github-contribution-grid-snake.svg" />
 </picture>
 
-<br/>
+<br/> 
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-FF6B6B?style=for-the-badge)](https://portfolio-edaa.onrender.com/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shlokbam)
