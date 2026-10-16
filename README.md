@@ -10,13 +10,13 @@
 
 </div>
 
-## Featured projects
+<div align="center">
 
-| Project | What it does | Stack |
-|---|---|---|
-| [**DailyDiff**](https://github.com/shlokbam/DailyDiff) | Autonomous multi-agent tech research and editorial team built on LangGraph, FastAPI, and React. Scans GitHub, arXiv, and Hugging Face to compile and email high-value briefs. We scan the noise, five things survive. | Python, LangGraph, LangChain, FastAPI, React, Mistral AI, Gemini |
-| [**lms**](https://github.com/shlokbam/lms) | Enterprise-grade LMS built with React/Vite, FastAPI, and React Native. Containerized with Docker Compose, automated via a local Jenkins CI/CD pipeline, and provisioned with AWS S3 emulation using Terraform and LocalStack. | FastAPI, React, React Native, Docker, Terraform, Jenkins |
-| [**MockVue**](https://github.com/shlokbam/MockVue) | An intelligent mock interview platform that helps candidates perfect their delivery. Uses speech recognition, Groq Whisper, and face-tracking models for real-time analytics on speaking pace, filler words, gaze tracking, and technical answer quality. | Python, FastAPI, React, Groq |
+<img src="assets/projects.svg?v=1" alt="Featured projects: DailyDiff, a multi-agent research and editorial team on LangGraph, FastAPI and React; LMS, an enterprise learning platform with Docker Compose, Jenkins and Terraform; MockVue, an AI mock interview platform with Groq Whisper and face tracking" width="100%">
+
+[**DailyDiff**](https://github.com/shlokbam/DailyDiff) &nbsp;|&nbsp; [**LMS**](https://github.com/shlokbam/lms) &nbsp;|&nbsp; [**MockVue**](https://github.com/shlokbam/MockVue)
+
+</div>
 
 <div align="center">
 
