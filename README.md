@@ -6,7 +6,7 @@
 
 <img src="assets/stack.svg?v=1" alt="Shlok's tech stack on three orbits, with grouped chips for languages, GenAI, evaluation, ML, web, databases, cloud and core CS" width="100%">
 
-<img src="assets/id-dashboard.svg?v=1" alt="Shlok Bam ID badge with dated metrics" width="100%">
+<img src="assets/id-dashboard.svg?v=2" alt="Shlok Bam ID badge with dated metrics" width="100%">
 
 </div>
 
