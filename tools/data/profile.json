@@ -1,0 +1,265 @@
+{
+ "hero": {
+  "roles": [
+   "AI Engineer",
+   "Gen AI Engineer",
+   "Agentic AI Engineer",
+   "Full-Stack AI Builder"
+  ],
+  "pitch": "I turn real-world problems into simple tech solutions.",
+  "location": "Pune, India",
+  "company": "Intern at PharmaACE Innovations",
+  "open_to": "Open to collaborate"
+ },
+ "capabilities": [
+  {
+   "name": "Agentic AI",
+   "sub": "Multi-agent pipelines in LangGraph"
+  },
+  {
+   "name": "LLM evaluation",
+   "sub": "LLM-as-judge and golden datasets"
+  },
+  {
+   "name": "RAG and MCP",
+   "sub": "Retrieval, tool and function calling"
+  },
+  {
+   "name": "Full-stack delivery",
+   "sub": "FastAPI, React, PostgreSQL, MySQL"
+  },
+  {
+   "name": "Cloud and DevOps",
+   "sub": "Docker, Terraform, AWS, Jenkins"
+  }
+ ],
+ "slides": [
+  {
+   "title": "Writing in public",
+   "icon": "medium",
+   "lines": [
+    "Notes from what I am learning:",
+    "LangChain, LangGraph, MCP,",
+    "LangSmith and a 7-day DevOps",
+    "lab, on my journal and Medium."
+   ]
+  },
+  {
+   "title": "Problem solving",
+   "icon": "leetcode",
+   "lines": [
+    "DSA practice on LeetCode and",
+    "CodeChef, backed by a core CS",
+    "base: OOP, DBMS, operating",
+    "systems and networks."
+   ]
+  },
+  {
+   "title": "Community",
+   "icon": null,
+   "lines": [
+    "Chaired ITSA at VIT Pune, July",
+    "2025 to June 2026. Led 50+",
+    "members through an AI workshop",
+    "for 500+ students."
+   ]
+  }
+ ],
+ "stack_groups": [
+  {
+   "label": "Languages",
+   "items": [
+    "Python",
+    "SQL",
+    "JavaScript"
+   ]
+  },
+  {
+   "label": "GenAI frameworks",
+   "items": [
+    "LangChain",
+    "LangGraph",
+    "Hugging Face",
+    "MCP"
+   ]
+  },
+  {
+   "label": "GenAI techniques",
+   "items": [
+    "RAG",
+    "Multi-Agent Systems",
+    "Tool/Function Calling",
+    "Prompt Engineering"
+   ]
+  },
+  {
+   "label": "LLM evaluation",
+   "items": [
+    "LLM-as-Judge",
+    "Golden-Dataset Evaluation",
+    "DeepEval",
+    "Guardrails",
+    "LangSmith"
+   ]
+  },
+  {
+   "label": "Machine learning",
+   "items": [
+    "Deep Learning",
+    "NLP",
+    "Transformers",
+    "Embeddings"
+   ]
+  },
+  {
+   "label": "Web",
+   "items": [
+    "FastAPI",
+    "Pydantic",
+    "REST APIs",
+    "React"
+   ]
+  },
+  {
+   "label": "Databases",
+   "items": [
+    "PostgreSQL",
+    "MySQL",
+    "Snowflake",
+    "Chroma"
+   ]
+  },
+  {
+   "label": "Cloud and DevOps",
+   "items": [
+    "AWS",
+    "Docker",
+    "Terraform",
+    "Jenkins",
+    "GitHub Actions",
+    "Git"
+   ]
+  },
+  {
+   "label": "Core CS",
+   "items": [
+    "DSA",
+    "OOP",
+    "DBMS",
+    "OS"
+   ]
+  }
+ ],
+ "numbers": [
+  {
+   "value": "17+",
+   "label": "projects completed"
+  },
+  {
+   "value": "3",
+   "label": "patents, co-inventor"
+  },
+  {
+   "value": "9.01",
+   "label": "CGPA, 6th semester"
+  },
+  {
+   "value": "90+",
+   "label": "Google Arcade badges"
+  },
+  {
+   "value": "3",
+   "label": "certifications"
+  },
+  {
+   "value": "Winner",
+   "label": "INDOvateAI, 2025"
+  }
+ ],
+ "numbers_note": [
+  "Portfolio figures as of 17 Oct 2026. Patents: 1 granted, 1 filed,",
+  "1 published. Winner among 200+ teams, per resume."
+ ],
+ "timeline": [
+  {
+   "when": "Jun 2026 to now",
+   "title": "Intern",
+   "org": "PharmaACE Innovations",
+   "current": true,
+   "text": [
+    "Healthcare data pipelines and agentic AI: NPI record matching,",
+    "news monitoring and a natural-language forecast reporting agent."
+   ]
+  },
+  {
+   "when": "2025 to 2026",
+   "title": "Co-inventor",
+   "org": "3 patents",
+   "text": [
+    "One granted, one filed and one published, across South Africa",
+    "and India."
+   ]
+  },
+  {
+   "when": "Jul 2025 to Jun 2026",
+   "title": "Chairperson",
+   "org": "IT Students' Association, VIT Pune",
+   "text": [
+    "Led a 50+ member team: an AI workshop for 500+ students, mock",
+    "GDs and PIs, and an event with automated QR attendance."
+   ]
+  },
+  {
+   "when": "2025",
+   "title": "Winner",
+   "org": "INDOvateAI Sprint 2025",
+   "text": [
+    "Best Outstanding Project among 200+ teams."
+   ]
+  },
+  {
+   "when": "2023 to 2027",
+   "title": "B.Tech, Information Technology",
+   "org": "VIT Pune",
+   "text": [
+    "CGPA 9.01 at the 6th semester."
+   ]
+  }
+ ],
+ "connect": [
+  {
+   "name": "LinkedIn",
+   "icon": "linkedin",
+   "sub": "shlokbam",
+   "url": "https://linkedin.com/in/shlokbam"
+  },
+  {
+   "name": "Portfolio",
+   "icon": "globe",
+   "sub": "my work",
+   "url": "https://portfolio-edaa.onrender.com/"
+  },
+  {
+   "name": "Journal",
+   "icon": "journal",
+   "sub": "engineering notes",
+   "url": "https://journal-murex-three.vercel.app/"
+  },
+  {
+   "name": "LeetCode",
+   "icon": "leetcode",
+   "sub": "shlokbam05",
+   "url": "https://leetcode.com/shlokbam05"
+  },
+  {
+   "name": "CodeChef",
+   "icon": "codechef",
+   "sub": "shlokbam",
+   "url": "https://www.codechef.com/users/shlokbam"
+  }
+ ],
+ "resume": {
+  "label": "Download my resume",
+  "file": "Shlok_Bam_Resume.pdf"
+ }
+}

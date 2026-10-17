@@ -1,4 +1,4 @@
-"""Regenerates the three data-driven images (id-dashboard, writing, footer) and cache-busts them in README.md.
+"""Regenerates every image in assets/ from tools/data/*.json (profile.json is the file you edit) and cache-busts README.md.
 Run by .github/workflows/update-profile.yml; safe to run locally:  python tools/update.py [--offline]
 Any fetch that fails keeps the previous value, so a flaky API never blanks the profile."""
 import json, os, re, sys, datetime, collections, urllib.request, xml.etree.ElementTree as ET
@@ -16,7 +16,7 @@ def get(url, data=None, headers=None):
         h['Authorization'] = f'Bearer {TOKEN}'
     h.update(headers or {})
     req = urllib.request.Request(url, data=data, headers=h)
-    with urllib.request.urlopen(req, timeout=30) as r:
+    with urllib.request.urlopen(req, timeout=75) as r:
         return r.read().decode()
 
 
@@ -88,22 +88,47 @@ def refresh_stats(st):
     return st
 
 
+JOURNAL_RSS = 'https://journal-backend-ypg5.onrender.com/rss.xml'
+
+
+def fetch_retry(url, tries=3):
+    """The journal backend sleeps on a free host, so the first request can take a while."""
+    last = None
+    for i in range(tries):
+        try:
+            return get(url, headers={'Accept': 'application/rss+xml'})
+        except Exception as e:
+            last = e
+    raise last
+
+
+def parse_journal(xml, limit=3):
+    from email.utils import parsedate_to_datetime
+    posts = []
+    for it in ET.fromstring(xml).findall('./channel/item'):
+        title = (it.findtext('title') or '').strip()
+        url = (it.findtext('link') or '').strip()
+        if not title or not url:
+            continue
+        try:
+            date = parsedate_to_datetime(it.findtext('pubDate')).date()
+        except Exception:
+            date = None
+        head, _, tail = title.partition(': ')
+        posts.append({'title': head, 'subtitle': tail or (it.findtext('description') or '').strip(), 'url': url,
+                      'source': 'Journal', 'date': date.isoformat() if date else None})
+    posts.sort(key=lambda p: p['date'] or '', reverse=True)
+    return posts[:limit]
+
+
 def refresh_writing(posts):
-    """Prepend any Medium post not already listed. The journal has no feed, so journal posts are edited by hand in data/writing.json."""
     try:
-        xml = get(f'https://medium.com/feed/@{USER.capitalize()}', headers={'Accept': 'application/rss+xml'})
-        items = ET.fromstring(xml).findall('./channel/item')
-        known = {p['url'].split('?')[0] for p in posts}
-        fresh = []
-        for it in items[:5]:
-            url = (it.findtext('link') or '').split('?')[0]
-            title = (it.findtext('title') or '').strip()
-            if url and title and url not in known:
-                fresh.append({'title': title, 'subtitle': '', 'url': url, 'source': 'Medium'})
-        posts = fresh + posts
-        print(f'medium: {len(fresh)} new post(s)')
+        fresh = parse_journal(fetch_retry(JOURNAL_RSS))
+        if fresh:
+            print(f'journal feed: {len(fresh)} newest posts')
+            return fresh
     except Exception as e:
-        print('WARNING: Medium feed not read, keeping the current list:', e)
+        print('WARNING: journal feed not read, keeping the current list:', e)
     return posts
 
 
@@ -117,16 +142,17 @@ def main():
         json.dump(st, open(sp, 'w'), indent=1)
         json.dump(posts, open(wp, 'w'), indent=1)
     sys.path.insert(0, HERE)
-    import dashboard, writing, footer
+    import importlib
     os.makedirs(f'{ROOT}/assets', exist_ok=True)
-    for name, mod in (('id-dashboard', dashboard), ('writing', writing), ('footer', footer)):
-        open(f'{ROOT}/assets/{name}.svg', 'w').write(mod.build())
-        print('wrote assets/%s.svg' % name)
+    for modname, out in (('hero', 'hero'), ('about', 'about-life'), ('stack', 'stack'), ('timeline', 'timeline'),
+                         ('dashboard', 'id-dashboard'), ('writing', 'writing'), ('connect2', 'connect'), ('footer', 'footer')):
+        open(f'{ROOT}/assets/{out}.svg', 'w').write(importlib.import_module(modname).build())
+        print('wrote assets/%s.svg' % out)
     rd = f'{ROOT}/README.md'
     if os.path.exists(rd):
         stamp = st['updated'].replace('-', '')
         txt = open(rd).read()
-        for name in ('id-dashboard', 'writing', 'footer'):
+        for name in ('hero', 'about-life', 'stack', 'timeline', 'id-dashboard', 'writing', 'connect', 'footer'):
             txt = re.sub(rf'(assets/{name}\.svg\?v=)[\w]+', rf'\g<1>{stamp}', txt)
         open(rd, 'w').write(txt)
 

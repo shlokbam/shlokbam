@@ -110,7 +110,24 @@ def icon_path(key):
     return ICONS[key]['path']
 
 
+def profile():
+    return json.load(open(f'{B}/data/profile.json'))
+
+
+def custom_glyph(key, cx, cy, size, color):
+    k = size / 24
+    t = f'translate({cx - size / 2:.2f} {cy - size / 2:.2f}) scale({k:.4f})'
+    st = f'fill="none" stroke="{color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"'
+    if key == 'globe':
+        return (f'<g transform="{t}" {st}><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.200 3 14.800 0 18M12 3c-3 3.200-3 14.800 0 18"/></g>')
+    if key == 'journal':
+        return (f'<g transform="{t}" {st}><path d="M6 3h11a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6z"/><path d="M6 3v18M10 8h5M10 12h5"/></g>')
+    raise KeyError(key)
+
+
 def icon_use(key, cx, cy, size, color=None):
+    if key not in ICONS:
+        return custom_glyph(key, cx, cy, size, color or INK)
     """brand glyph centred at cx,cy, drawn from a 24x24 path"""
     s = size / 24
     color = color or glyph_color(key)

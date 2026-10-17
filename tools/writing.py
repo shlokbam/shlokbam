@@ -1,5 +1,11 @@
-import json
+import json, datetime
 from lib import *
+
+
+def fmt_date(iso):
+    d = datetime.date.fromisoformat(iso)
+    return f'{d.day} {d.strftime("%b %Y")}'
+
 P = 'wr'
 W = 900
 def build(path=None):
@@ -18,7 +24,7 @@ def build(path=None):
         size = 17
         while syne_w(p['title'], size) > 640: size -= 1
         d = .3 + i * .15
-        tag = p['source']; tw = body_w(tag, 13, 600) + 28
+        tag = fmt_date(p['date']) if p.get('date') else p['source']; tw = body_w(tag, 13, 600) + 28
         body += (f'<g class="{P}-r" style="animation-delay:{d:.2f}s">'
                  f'<rect class="{P}-b" x="48" y="{y}" width="4" height="56" rx="2" fill="url(#{P}-edge)" style="animation-delay:{d:.2f}s"/>'
                  f'<text class="{P}-d" x="70" y="{y + 24}" font-size="{size}" letter-spacing="-.2">{p["title"]}</text>'

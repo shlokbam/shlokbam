@@ -6,8 +6,8 @@ P = 'idc'
 W, H = 900, 624
 SC, TX = 0.82, -38
 X0, RW = 340, 512
-NUM = [('17+', 'projects completed'), ('3', 'patents, co-inventor'), ('9.01', 'CGPA, 6th semester'),
-       ('90+', 'Google Arcade badges'), ('3', 'certifications'), ('Winner', 'INDOvateAI, 2025')]
+_P = profile()
+NUM = [(n['value'], n['label']) for n in _P['numbers']]
 LANG_COL = ['#247bff', '#ff354f', '#8d6bff', '#6aa8ff', '#ff8a9a', '#5b6a94']
 HEAT = ['#141d33', '#1c4a99', '#247bff', '#7db3ff', '#ff354f']
 
@@ -29,8 +29,8 @@ def numbers():
                 f'<rect x="{f(x)}" y="{y}" width="{f(cw - 16)}" height="1" fill="url(#{P}-edge)" fill-opacity=".6"/>'
                 f'<text class="{P}-d" x="{f(x)}" y="{y + 40}" font-size="{f(size)}" letter-spacing="-.5">{v}</text>'
                 f'<text class="{P}-b" x="{f(x)}" y="{y + 62}" font-size="13">{lab}</text></g>')
-    out += (f'<text class="{P}-b {P}-dim" x="{X0}" y="270" font-size="12">Portfolio figures as of 17 Oct 2026. Patents: 1 granted, 1 filed,</text>'
-            f'<text class="{P}-b {P}-dim" x="{X0}" y="286" font-size="12">1 published. Winner among 200+ teams, per resume.</text>')
+    for k, line in enumerate(_P['numbers_note'][:2]):
+        out += f'<text class="{P}-b {P}-dim" x="{X0}" y="{270 + 16 * k}" font-size="12">{line}</text>'
     return out
 
 
