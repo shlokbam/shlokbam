@@ -20,6 +20,28 @@ def get(url, data=None, headers=None):
         return r.read().decode()
 
 
+def parse_calendar(html):
+    """Reads github.com/users/<user>/contributions (public HTML, no token needed)."""
+    cells = re.findall(r'data-date="(\d{4}-\d\d-\d\d)"[^>]*?data-level="(\d)"', html)
+    if not cells:
+        cells = [(d, l) for l, d in re.findall(r'data-level="(\d)"[^>]*?data-date="(\d{4}-\d\d-\d\d)"', html)]
+    cells = sorted(set((d, int(l)) for d, l in cells))
+    m = re.search(r'([\d,]+)\s+contributions\s+in\s+the\s+last\s+year', re.sub(r'\s+', ' ', html))
+    total = int(m.group(1).replace(',', '')) if m else None
+    cur = best = run = 0
+    for _, lvl in cells:
+        run = run + 1 if lvl > 0 else 0
+        best = max(best, run)
+    for _, lvl in reversed(cells):            # current streak: a still-empty "today" does not break it
+        if lvl > 0:
+            cur += 1
+        elif cur == 0 and _ == cells[-1][0]:
+            continue
+        else:
+            break
+    return {'calendar': [[d, l] for d, l in cells], 'contributions': total, 'streak_current': cur, 'streak_longest': best}
+
+
 def refresh_stats(st):
     ok = False
     try:
@@ -41,14 +63,26 @@ def refresh_stats(st):
         print('stats refreshed from the REST API')
     except Exception as e:
         print('WARNING: REST stats not refreshed, keeping previous values:', e)
+    try:
+        cal = parse_calendar(get(f'https://github.com/users/{USER}/contributions', headers={'Accept': 'text/html'}))
+        if cal['calendar']:
+            st.update({k: v for k, v in cal.items() if v is not None})
+            ok = True
+            print('contribution calendar refreshed')
+    except Exception as e:
+        print('WARNING: calendar not refreshed:', e)
     if TOKEN:
         try:
-            q = json.dumps({'query': 'query($l:String!){user(login:$l){contributionsCollection{contributionCalendar{totalContributions}}}}',
-                            'variables': {'l': USER}}).encode()
-            res = json.loads(get('https://api.github.com/graphql', data=q, headers={'Content-Type': 'application/json'}))
-            st['contributions'] = res['data']['user']['contributionsCollection']['contributionCalendar']['totalContributions']
+            first = datetime.date.today().replace(day=1).isoformat() + 'T00:00:00Z'
+            q = json.dumps({'query': 'query($l:String!,$f:DateTime!){user(login:$l){a:contributionsCollection{totalCommitContributions totalPullRequestContributions totalIssueContributions} m:contributionsCollection(from:$f){totalCommitContributions}}}',
+                            'variables': {'l': USER, 'f': first}}).encode()
+            u = json.loads(get('https://api.github.com/graphql', data=q, headers={'Content-Type': 'application/json'}))['data']['user']
+            st['commits_year'] = u['a']['totalCommitContributions']
+            st['pull_requests_year'] = u['a']['totalPullRequestContributions']
+            st['commits_month'] = {'label': datetime.date.today().strftime('%b %Y'), 'value': u['m']['totalCommitContributions']}
+            print('commit totals refreshed')
         except Exception as e:
-            print('WARNING: contributions not refreshed:', e)
+            print('WARNING: commit totals not refreshed:', e)
     if ok:   # only re-date the numbers when they were really refreshed
         st['updated'] = datetime.datetime.now(datetime.timezone.utc).date().isoformat()
     return st

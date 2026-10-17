@@ -11,7 +11,9 @@ def b64(path):
     return base64.b64encode(open(path, 'rb').read()).decode()
 
 
-FONT_SYNE = b64(f'{B}/fonts/syne-latin-800-normal.woff2')
+FONT_DISP = b64(f'{B}/fonts/manrope-latin-800-normal.woff2')
+FONT_B5 = b64(f'{B}/fonts/inter-latin-500-normal.woff2')
+FONT_B6 = b64(f'{B}/fonts/inter-latin-600-normal.woff2')
 FONT_M500 = b64(f'{B}/fonts/jetbrains-mono-latin-500-normal.woff2')
 FONT_M700 = b64(f'{B}/fonts/jetbrains-mono-latin-700-normal.woff2')
 PNG_ID = b64(f'{B}/id.png')
@@ -19,8 +21,8 @@ PNG_POINT = b64(f'{B}/right_pointing.png') if os.path.exists(f'{B}/right_pointin
 
 LICENSE_COMMENT = (
     '<!-- Fonts embedded as base64 WOFF2 under the SIL Open Font License 1.1: '
-    'Syne (c) 2019 The Syne Project Authors; JetBrains Mono (c) 2020 The JetBrains Mono Project Authors. '
-    'Full texts: LICENSES/OFL-Syne.txt, LICENSES/OFL-JetBrainsMono.txt. '
+    'Manrope (c) The Manrope Project Authors; Inter (c) The Inter Project Authors; JetBrains Mono (c) 2020 The JetBrains Mono Project Authors. '
+    'Full texts: LICENSES/OFL-*.txt. '
     'Brand marks: see LICENSES/ICON-SOURCES.md. Portraits: author-supplied PNGs, pixel-identical. -->'
 )
 
@@ -42,11 +44,13 @@ def glyph_color(key):
 
 
 def font_css(p):
+    ff = lambda fam, w, data: f"@font-face{{font-family:'{fam}';font-weight:{w};src:url(data:font/woff2;base64,{data}) format('woff2');}}"
     return (
-        f"@font-face{{font-family:'SB Syne';font-weight:800;src:url(data:font/woff2;base64,{FONT_SYNE}) format('woff2');}}"
-        f"@font-face{{font-family:'SB Mono';font-weight:500;src:url(data:font/woff2;base64,{FONT_M500}) format('woff2');}}"
-        f"@font-face{{font-family:'SB Mono';font-weight:700;src:url(data:font/woff2;base64,{FONT_M700}) format('woff2');}}"
-        f".{p}-d{{font-family:'SB Syne','Arial Black','Segoe UI',sans-serif;font-weight:800;fill:{INK}}}"
+        ff('SB Display', 800, FONT_DISP) + ff('SB Body', 500, FONT_B5) + ff('SB Body', 600, FONT_B6)
+        + ff('SB Mono', 500, FONT_M500) + ff('SB Mono', 700, FONT_M700)
+        + f".{p}-d{{font-family:'SB Display','Segoe UI',Arial,sans-serif;font-weight:800;fill:{INK}}}"
+        f".{p}-b{{font-family:'SB Body','Segoe UI',Arial,sans-serif;font-weight:500;fill:{INK}}}"
+        f".{p}-bb{{font-family:'SB Body','Segoe UI',Arial,sans-serif;font-weight:600;fill:{INK}}}"
         f".{p}-m{{font-family:'SB Mono','JetBrains Mono',Menlo,Consolas,monospace;font-weight:500;fill:{INK}}}"
         f".{p}-mb{{font-family:'SB Mono','JetBrains Mono',Menlo,Consolas,monospace;font-weight:700;fill:{INK}}}"
         f".{p}-dim{{fill:{MUTED}}}"
@@ -119,9 +123,29 @@ def f(n):
 
 
 from fontTools.ttLib import TTFont as _TT
-_sy = _TT(f'{B}/fonts/syne-latin-800-normal.woff2')
-_sy_c, _sy_h, _sy_u = _sy['cmap'].getBestCmap(), _sy['hmtx'], _sy['head'].unitsPerEm
 
 
-def syne_w(text, size):
-    return sum(_sy_h[_sy_c[ord(ch)]][0] for ch in text) * size / _sy_u
+def _metrics(path):
+    t = _TT(path)
+    return t['cmap'].getBestCmap(), t['hmtx'], t['head'].unitsPerEm
+
+
+_FM = {'disp': _metrics(f'{B}/fonts/manrope-latin-800-normal.woff2'),
+       500: _metrics(f'{B}/fonts/inter-latin-500-normal.woff2'),
+       600: _metrics(f'{B}/fonts/inter-latin-600-normal.woff2')}
+
+
+def _w(key, text, size):
+    c, h, u = _FM[key]
+    return sum(h[c[ord(ch)]][0] for ch in text) * size / u
+
+
+def disp_w(text, size):
+    return _w('disp', text, size)
+
+
+syne_w = disp_w                      # legacy name used across the generators
+
+
+def body_w(text, size, weight=500):
+    return _w(weight, text, size)
