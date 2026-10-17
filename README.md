@@ -13,7 +13,13 @@
 <img src="assets/writing.svg?v=20261017" alt="Latest writing from Shlok's journal" width="100%">
 
 [Read more on the journal](https://journal-murex-three.vercel.app/) &nbsp;|&nbsp; [Medium](https://medium.com/Shlokbam)
-<!-- BLOG-POST-LIST:START --> <!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->
+- [Building Generative AI Apps with LangChain: Document Loaders, Text Splitters, ChromaDB, and LCEL](https://journal-murex-three.vercel.app/journal/building-generative-ai-apps-langchain-document-loaders-chromadb-lcel)
+- [My LangSmith Learning Log: Tracing, Debugging, and Optimizing LLM Chains and RAG Pipelines](https://journal-murex-three.vercel.app/journal/my-langsmith-learning-log-tracing-debugging-optimizing-llm-chains-rag)
+- [Hands-On Agentic AI with LangGraph: Building Sequential, Parallel, and Conditional State Workflows](https://journal-murex-three.vercel.app/journal/hands-on-agentic-ai-langgraph-sequential-parallel-conditional-workflows)
+- [Exploring Model Context Protocol &lpar;MCP&rpar;: Building AI Tools, Streamlit Clients, and emailmd Assistants](https://journal-murex-three.vercel.app/journal/exploring-model-context-protocol-mcp-ai-tools-streamlit-emailmd)
+- [My 7-Day DevOps Lab: How I Learned Terraform, Ansible, and HashiCorp Vault by Building Real Infrastructure](https://journal-murex-three.vercel.app/journal/my-7-day-devops-lab-terraform-ansible-hashicorp-vault)
+<!-- BLOG-POST-LIST:END -->
 
 <img src="assets/connect.svg?v=20261017" alt="Cards for LinkedIn, Portfolio, Journal, LeetCode and CodeChef, and a resume download button; the real links are listed below" width="100%">
 
