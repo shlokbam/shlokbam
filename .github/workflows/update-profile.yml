@@ -8,6 +8,8 @@ on:
       - 'tools/data/profile.json'  # editing profile.json rebuilds the images
 permissions:
   contents: write
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
 jobs:
   update:
     runs-on: ubuntu-latest
