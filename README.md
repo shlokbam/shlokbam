@@ -13,6 +13,7 @@
 <img src="assets/writing.svg?v=20261017" alt="Latest writing from Shlok's journal" width="100%">
 
 [Read more on the journal](https://journal-murex-three.vercel.app/) &nbsp;|&nbsp; [Medium](https://medium.com/Shlokbam)
+<!-- BLOG-POST-LIST:START --> <!-- BLOG-POST-LIST:END -->
 
 <img src="assets/connect.svg?v=20261017" alt="Cards for LinkedIn, Portfolio, Journal, LeetCode and CodeChef, and a resume download button; the real links are listed below" width="100%">
 
