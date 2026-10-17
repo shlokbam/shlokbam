@@ -11,3 +11,8 @@ Brand marks are used only to identify the named platforms/technologies. Trademar
 
 Fonts: Syne and JetBrains Mono, SIL Open Font License 1.1 (see OFL-*.txt), embedded as base64 WOFF2 from @fontsource 5.3.0.
 Portraits: author-supplied `id.png` and `right_pointing.png`, embedded unmodified (lossless recompression, pixel-identical).
+
+## Auto-update tooling
+`tools/` regenerates `assets/id-dashboard.svg`, `assets/writing.svg` and `assets/footer.svg` from `tools/data/*.json`
+(GitHub public API numbers and the writing list). It embeds the same fonts, icons and portrait as above and makes no
+network requests when the images render. Run it by hand with `python tools/update.py --offline`.

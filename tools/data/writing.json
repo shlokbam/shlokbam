@@ -1,0 +1,20 @@
+[
+ {
+  "title": "Building Generative AI Apps with LangChain",
+  "subtitle": "Document Loaders, Text Splitters, ChromaDB, and LCEL",
+  "url": "https://journal-murex-three.vercel.app/journal/building-generative-ai-apps-langchain-document-loaders-chromadb-lcel",
+  "source": "Journal"
+ },
+ {
+  "title": "My LangSmith Learning Log",
+  "subtitle": "Tracing, Debugging, and Optimizing LLM Chains and RAG Pipelines",
+  "url": "https://journal-murex-three.vercel.app/journal/my-langsmith-learning-log-tracing-debugging-optimizing-llm-chains-rag",
+  "source": "Journal"
+ },
+ {
+  "title": "Hands-On Agentic AI with LangGraph",
+  "subtitle": "Building Sequential, Parallel, and Conditional State Workflows",
+  "url": "https://journal-murex-three.vercel.app/journal/hands-on-agentic-ai-langgraph-sequential-parallel-conditional-workflows",
+  "source": "Journal"
+ }
+]
