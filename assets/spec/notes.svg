@@ -17,5 +17,5 @@
 <text x="120.0" y="234.0" class="bb" font-size="16" text-anchor="start">Temperature 0 still gave different answers.</text>
 <text x="960" y="234" class="m" font-size="12" text-anchor="end">linkedin</text>
 <line x1="40" x2="960" y1="254" y2="254" stroke="#2A2926"/>
-<text x="40.0" y="284.0" class="m" font-size="11.5" text-anchor="start">rotates on its own: current series › next series › latest writing · code lives in shlokbam/lab</text>
+<text x="40.0" y="284.0" class="m" font-size="11.5" text-anchor="start">rotates on its own: current series › next series › latest writing</text>
 </svg>

@@ -203,7 +203,8 @@ def card_notes(c, journal):
         y += 54
         out.append(f'<line x1="40" x2="{W - 40}" y1="{y}" y2="{y}" stroke="{LINE}"/>')
     fn = c['field_notes']
-    out.append(text(40, y + 30, f'rotates on its own: current series › next series › latest writing · code lives in {fn["lab_repo"]}', 'm', 11.5))
+    tail = f' · code lives in {fn["lab_repo"]}' if fn.get('lab_repo') else ''
+    out.append(text(40, y + 30, 'rotates on its own: current series › next series › latest writing' + tail, 'm', 11.5))
     return svg(y + 52, '\n'.join(out), 'Field notes: latest writing',
                '; '.join(f'{p["date"]}: {p["title"]}' for p in items))
 

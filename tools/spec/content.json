@@ -71,7 +71,7 @@
   "_how": "While a series is active, the card shows its newest 3 posts. Set series to \"\" when it ends: the card then shows the newest 3 items from posts + the journal feed.",
   "series": "#NotWhatYouThink",
   "series_note": "arc 2",
-  "lab_repo": "shlokbam/lab",
+  "lab_repo": "",
   "posts": [
    {
     "date": "2026-11-05",
