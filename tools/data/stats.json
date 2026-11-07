@@ -1536,5 +1536,21 @@
   "value": 41
  },
  "commits_year": 802,
- "pull_requests_year": 2
+ "pull_requests_year": 2,
+ "topics": [
+  "fastapi",
+  "generative-ai",
+  "langchain",
+  "llm",
+  "multi-agent-systems",
+  "agentic-ai",
+  "react",
+  "mistral",
+  "rag",
+  "langgraph",
+  "langsmith",
+  "ai-agents",
+  "llmops",
+  "chromadb"
+ ]
 }

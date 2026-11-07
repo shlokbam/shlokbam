@@ -1,13 +1,20 @@
-name: Update profile images
+name: Update profile
+# Rebuilds assets/spec/*.svg and README.md from tools/spec/content.json + live GitHub data,
+# then commits as Shlok so the change shows on the contribution graph.
 on:
   schedule:
-    - cron: '17 3 * * *'          # daily, 03:17 UTC
-  workflow_dispatch:               # "Run workflow" button in the Actions tab
+    - cron: '17 3 * * *'            # daily, 03:17 UTC (08:47 IST)
+  workflow_dispatch:                 # "Run workflow" button in the Actions tab
   push:
+    branches: [ main ]
     paths:
-      - 'tools/data/profile.json'  # editing profile.json rebuilds the images
+      - 'tools/spec/content.json'    # editing your words rebuilds the cards
+      - 'tools/spec/build.py'
 permissions:
   contents: write
+concurrency:
+  group: update-profile
+  cancel-in-progress: false
 env:
   PYTHONDONTWRITEBYTECODE: '1'
 jobs:
@@ -19,14 +26,16 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install fonttools brotli
-      - run: python tools/update.py
+      - name: Build cards and README
+        run: python tools/spec/build.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Commit changes
+      - name: Commit as Shlok
         run: |
           git config user.name  "Shlok Bam"
           git config user.email "147968468+shlokbam@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet || git commit -m "chore: refresh profile images"
+          git diff --cached --quiet && { echo "nothing changed"; exit 0; }
+          git commit -m "chore: regenerate profile cards ($(date -u +%F))"
           git pull --rebase
           git push
