@@ -4,7 +4,7 @@
  "followers": 3,
  "following": 7,
  "stars": 1,
- "contributions": 854,
+ "contributions": 855,
  "languages": [
   [
    "Python",
@@ -1526,15 +1526,31 @@
   ],
   [
    "2026-11-07",
-   0
+   1
   ]
  ],
- "streak_current": 27,
- "streak_longest": 27,
+ "streak_current": 28,
+ "streak_longest": 28,
  "commits_month": {
   "label": "Nov 2026",
-  "value": 41
+  "value": 42
  },
- "commits_year": 802,
- "pull_requests_year": 2
+ "commits_year": 803,
+ "pull_requests_year": 2,
+ "topics": [
+  "generative-ai",
+  "fastapi",
+  "agentic-ai",
+  "langchain",
+  "llm",
+  "python",
+  "ai-agents",
+  "multi-agent-systems",
+  "react",
+  "mistral",
+  "langgraph",
+  "langsmith",
+  "ai",
+  "aws"
+ ]
 }
