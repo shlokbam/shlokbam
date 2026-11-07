@@ -19,7 +19,7 @@
 <text x="596" y="196" class="m i" font-size="12">› <tspan class="bb" font-size="12.5">PromptVault</tspan>: version control for prompts</text>
 <text x="596.0" y="220.0" class="m" font-size="12" text-anchor="start">sources: shlokbam.in/work</text>
 <line x1="580" x2="960" y1="256" y2="256" stroke="#2A2926"/>
-<text x="596" y="280" class="m" font-size="12">add to Claude / Cursor: <tspan class="i">setup steps at shlokbam.in</tspan></text>
+<text x="596" y="280" class="m" font-size="12">add to Claude / Cursor: <tspan class="i">shlokbam.in/mcp</tspan></text>
 <line x1="40" x2="960" y1="322" y2="322" stroke="#2A2926"/>
 <text x="40" y="352" class="m" font-size="12.5"><tspan class="o">now ›</tspan><tspan class="i"> going deep on RAG retrieval and LLM evals</tspan></text>
 <text x="960.0" y="352.0" class="m" font-size="12" text-anchor="end">updated Nov 2026</text>
