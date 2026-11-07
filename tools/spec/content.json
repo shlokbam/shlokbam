@@ -1,0 +1,189 @@
+{
+ "_readme": "This is the file you edit. The nightly Action rebuilds every card in assets/spec/ and README.md from it plus live GitHub data.",
+ "hero": {
+  "label": "shlokbam · spec v2026.11",
+  "status": "available from may 2027",
+  "headline": [
+   "Agents in production.",
+   "Evals that ",
+   "prove it."
+  ],
+  "sub": "AI / Generative AI engineer · Intern at PharmaACE Innovations · B.Tech IT, VIT Pune '27",
+  "now": "going deep on RAG retrieval and LLM evals",
+  "now_updated": "Nov 2026",
+  "ask": {
+   "question": "what has Shlok built with agents?",
+   "tool": "shlok-portfolio.list_projects",
+   "answers": [
+    [
+     "DailyDiff",
+     "LangGraph pipeline, 42 editions sent"
+    ],
+    [
+     "ResearchOS",
+     "multi-agent research + fact-checks"
+    ],
+    [
+     "PromptVault",
+     "version control for prompts"
+    ]
+   ],
+   "source": "shlokbam.in/work",
+   "mcp_url": "shlokbam.in/mcp"
+  }
+ },
+ "systems": [
+  {
+   "kind": "agent pipeline",
+   "name": "DailyDiff",
+   "repo": "shlokbam/DailyDiff",
+   "live_status": true,
+   "line": "LangGraph agents research, fact-check and email a developer brief three times a week.",
+   "meta": "42 editions · 185 briefs · publish gate on",
+   "url": "https://dailydiff.in"
+  },
+  {
+   "kind": "mcp server",
+   "name": "Portfolio as an API",
+   "status": "live",
+   "line": "Ten read-only tools any AI can call to ask about my work. On the official MCP Registry.",
+   "meta": "Glama 4.6/5 · mcptry 99/100",
+   "url": "https://shlokbam.in/ai"
+  },
+  {
+   "kind": "eval framework",
+   "name": "LLM-RAG-Evaluation",
+   "status": "ci gate",
+   "line": "Regression CI for RAG: two-stage retrieval, grounded answers, safety and cost, judged with DeepEval.",
+   "meta": "DeepEval · Mistral · bge-m3 · Chroma",
+   "url": "https://github.com/shlokbam/LLM-RAG-Evaluation"
+  },
+  {
+   "kind": "llmops tool",
+   "name": "PromptVault",
+   "status": "shipped",
+   "line": "Version control for prompts: side-by-side diffs, test suites and an audit trail before a change ships.",
+   "meta": "React · FastAPI · Monaco · SQLAlchemy",
+   "url": "https://github.com/shlokbam/PromptVault"
+  }
+ ],
+ "field_notes": {
+  "_how": "While a series is active, the card shows its newest 3 posts. Set series to \"\" when it ends: the card then shows the newest 3 items from posts + the journal feed.",
+  "series": "#NotWhatYouThink",
+  "series_note": "arc 2",
+  "lab_repo": "shlokbam/lab",
+  "posts": [
+   {
+    "date": "2026-11-05",
+    "title": "My prompt didn't change. The model did.",
+    "source": "linkedin",
+    "series": "#NotWhatYouThink",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523957298596286464/",
+    "code": ""
+   },
+   {
+    "date": "2026-11-04",
+    "title": "Don't read my portfolio. Ask it.",
+    "source": "linkedin",
+    "series": "",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523595060173631488/",
+    "code": ""
+   },
+   {
+    "date": "2026-11-03",
+    "title": "The context window is a ceiling, not a target.",
+    "source": "linkedin",
+    "series": "#NotWhatYouThink",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523232613835104256/",
+    "code": ""
+   },
+   {
+    "date": "2026-10-29",
+    "title": "Temperature 0 still gave different answers.",
+    "source": "linkedin",
+    "series": "#NotWhatYouThink",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7521486557904580608/",
+    "code": ""
+   },
+   {
+    "date": "2026-10-27",
+    "title": "GPT-4o never sees the letters in \"strawberry\".",
+    "source": "linkedin",
+    "series": "#NotWhatYouThink",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520696039679471616/",
+    "code": ""
+   }
+  ]
+ },
+ "toolbox": [
+  [
+   "agents",
+   "LangGraph · LangChain · MCP · RAG · tool calling"
+  ],
+  [
+   "evals",
+   "DeepEval · LLM-as-judge · golden sets · LangSmith"
+  ],
+  [
+   "ship",
+   "Python · FastAPI · React · Postgres · Docker"
+  ],
+  [
+   "run",
+   "GitHub Actions · Terraform · Jenkins · AWS"
+  ]
+ ],
+ "track": [
+  [
+   "3",
+   "patents · 1 granted (South Africa)",
+   true
+  ],
+  [
+   "1st",
+   "INDOvateAI Sprint 2025 · 200+ teams",
+   false
+  ],
+  [
+   "9.01",
+   "CGPA · B.Tech IT, VIT Pune",
+   false
+  ],
+  [
+   "50+",
+   "members led · founding chair, ITSA",
+   false
+  ]
+ ],
+ "projects_shipped": 21,
+ "links": [
+  [
+   "shlokbam.in",
+   "https://shlokbam.in"
+  ],
+  [
+   "LinkedIn",
+   "https://www.linkedin.com/in/shlokbam/"
+  ],
+  [
+   "Journal",
+   "https://journal-murex-three.vercel.app/"
+  ],
+  [
+   "Résumé (PDF)",
+   "Shlok_Bam_Resume.pdf"
+  ],
+  [
+   "Email",
+   "mailto:shlokbam19103@gmail.com"
+  ],
+  [
+   "LeetCode",
+   "https://leetcode.com/u/shlokbam05/"
+  ],
+  [
+   "CodeChef",
+   "https://www.codechef.com/users/shlokbam"
+  ]
+ ]
+}
