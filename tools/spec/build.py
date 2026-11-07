@@ -158,7 +158,7 @@ def card_systems(c):
         if s.get('live_status'):
             st, col = dailydiff_status(s)
         else:
-            st, col = s.get('status', ''), (GREEN if s.get('status') == 'live' else ORANGE if s.get('status') == 'ci gate' else MUTED)
+            st, col = s.get('status', ''), (GREEN if s.get('status') == 'live' else ORANGE if s.get('status') in ('ci gate', 'baseline gate') else MUTED)
         out.append(f'<rect x="{x}" y="{y}" width="{tw_}" height="{th}" rx="3" fill="{BG}" stroke="{LINE}"/>')
         out.append(text(x + 20, y + 30, s['kind'], 'm u', 10.5))
         out.append(f'<text x="{x + tw_ - 20}" y="{y + 30}" class="m u" font-size="10.5" text-anchor="end" style="fill:{col}">{esc(st)}</text>'

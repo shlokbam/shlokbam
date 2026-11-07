@@ -53,8 +53,8 @@
   {
    "kind": "eval framework",
    "name": "LLM-RAG-Evaluation",
-   "status": "ci gate",
-   "line": "Regression CI for RAG: two-stage retrieval, grounded answers, safety and cost, judged with DeepEval.",
+   "status": "baseline gate",
+   "line": "A RAG pipeline scored on 20 metrics (retrieval, grounding, safety, cost, latency) and gated against a saved baseline.",
    "meta": "DeepEval · Mistral · bge-m3 · Chroma",
    "url": "https://github.com/shlokbam/LLM-RAG-Evaluation"
   },
