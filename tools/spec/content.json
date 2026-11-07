@@ -17,7 +17,7 @@
    "answers": [
     [
      "DailyDiff",
-     "LangGraph pipeline, 42 editions sent"
+     "LangGraph pipeline, 50 editions sent"
     ],
     [
      "ResearchOS",
@@ -39,7 +39,7 @@
    "repo": "shlokbam/DailyDiff",
    "live_status": true,
    "line": "LangGraph agents research, fact-check and email a developer brief three times a week.",
-   "meta": "42 editions · 185 briefs · publish gate on",
+   "meta": "50 editions · 221 briefs · publish gate on",
    "url": "https://dailydiff.in"
   },
   {

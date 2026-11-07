@@ -14,7 +14,7 @@
 <line x1="580" x2="960" y1="72" y2="72" stroke="#2A2926"/>
 <text x="596" y="100" class="m" font-size="12.5"><tspan class="o">you ›</tspan><tspan class="i"> what has Shlok built with agents?</tspan></text>
 <circle cx="600" cy="120" r="3" fill="#A19D92"/><text x="610.0" y="124.0" class="m" font-size="12" text-anchor="start">calling shlok-portfolio.list_projects</text>
-<text x="596" y="148" class="m i" font-size="12">› <tspan class="bb" font-size="12.5">DailyDiff</tspan>: LangGraph pipeline, 42 editions sent</text>
+<text x="596" y="148" class="m i" font-size="12">› <tspan class="bb" font-size="12.5">DailyDiff</tspan>: LangGraph pipeline, 50 editions sent</text>
 <text x="596" y="172" class="m i" font-size="12">› <tspan class="bb" font-size="12.5">ResearchOS</tspan>: multi-agent research + fact-checks</text>
 <text x="596" y="196" class="m i" font-size="12">› <tspan class="bb" font-size="12.5">PromptVault</tspan>: version control for prompts</text>
 <text x="596.0" y="220.0" class="m" font-size="12" text-anchor="start">sources: shlokbam.in/work</text>
