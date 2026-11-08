@@ -4,6 +4,7 @@ name: Update profile
 on:
   schedule:
     - cron: '17 3 * * *'            # daily, 03:17 UTC (08:47 IST)
+    - cron: '43 14 * * *'   # 20:13 IST backup, in case the morning run is dropped
   workflow_dispatch:                 # "Run workflow" button in the Actions tab
   push:
     branches: [ main ]
