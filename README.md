@@ -14,7 +14,7 @@
 
 <a href="https://github.com/search?q=is%3Apr+author%3Ashlokbam+-user%3Ashlokbam&type=pullrequests"><img src="assets/spec/oss.svg?v=20261111" alt="05 Open source: pull requests to other projects" width="100%"></a>
 
-<sub>[evalscope #2049](https://github.com/modelscope/evalscope/pull/2049) &nbsp;·&nbsp; [evalscope #2029](https://github.com/modelscope/evalscope/pull/2029) &nbsp;·&nbsp; [evalscope #2028](https://github.com/modelscope/evalscope/pull/2028) &nbsp;·&nbsp; [unstructured #4695](https://github.com/Unstructured-IO/unstructured/pull/4695) &nbsp;·&nbsp; [docling-core #1008](https://github.com/docling-project/docling-core/pull/1008) &nbsp;·&nbsp; [docling-core #1003](https://github.com/docling-project/docling-core/pull/1003) &nbsp;·&nbsp; [presidio #2466](https://github.com/data-privacy-stack/presidio/pull/2466)</sub>
+<sub>[evalscope #2049](https://github.com/modelscope/evalscope/pull/2049) &nbsp;·&nbsp; [evalscope #2029](https://github.com/modelscope/evalscope/pull/2029) &nbsp;·&nbsp; [evalscope #2028](https://github.com/modelscope/evalscope/pull/2028) &nbsp;·&nbsp; [opencompass #2726](https://github.com/open-compass/opencompass/pull/2726) &nbsp;·&nbsp; [unstructured #4695](https://github.com/Unstructured-IO/unstructured/pull/4695) &nbsp;·&nbsp; [docling-core #1008](https://github.com/docling-project/docling-core/pull/1008) &nbsp;·&nbsp; [docling-core #1003](https://github.com/docling-project/docling-core/pull/1003)</sub>
 
 <img src="assets/spec/numbers.svg?v=20261111" alt="06 GitHub by the numbers: contributions, commits, repos and languages" width="100%">
 

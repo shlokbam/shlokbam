@@ -1,10 +1,10 @@
 {
  "updated": "2026-11-11",
- "repos": 54,
+ "repos": 55,
  "followers": 6,
  "following": 10,
  "stars": 1,
- "contributions": 935,
+ "contributions": 939,
  "languages": [
   [
    "Python",
@@ -1521,10 +1521,10 @@
  "streak_longest": 32,
  "commits_month": {
   "label": "Nov 2026",
-  "value": 95
+  "value": 96
  },
- "commits_year": 856,
- "pull_requests_year": 15,
+ "commits_year": 857,
+ "pull_requests_year": 16,
  "topics": [
   "generative-ai",
   "fastapi",
@@ -1543,8 +1543,8 @@
  ],
  "oss": {
   "merged": 3,
-  "open": 4,
-  "issues": 7,
+  "open": 5,
+  "issues": 8,
   "prs": [
    {
     "repo": "modelscope/evalscope",
@@ -1566,6 +1566,13 @@
     "state": "merged",
     "date": "2026-11-09",
     "url": "https://github.com/modelscope/evalscope/pull/2028"
+   },
+   {
+    "repo": "open-compass/opencompass",
+    "title": "[Fix] Stop first_option_postprocess from extracting option letters inside words",
+    "state": "open",
+    "date": "2026-11-11",
+    "url": "https://github.com/open-compass/opencompass/pull/2726"
    },
    {
     "repo": "Unstructured-IO/unstructured",
