@@ -1540,5 +1540,65 @@
   "langsmith",
   "ai",
   "aws"
- ]
+ ],
+ "oss": {
+  "merged": 3,
+  "open": 4,
+  "issues": 7,
+  "prs": [
+   {
+    "repo": "modelscope/evalscope",
+    "title": "fix(math): normalize thin-space digit groups and currency symbols before Math-Verify parsing",
+    "state": "merged",
+    "date": "2026-11-10",
+    "url": "https://github.com/modelscope/evalscope/pull/2049"
+   },
+   {
+    "repo": "modelscope/evalscope",
+    "title": "fix(multi_choices): drop punctuation after a closing bold answer line",
+    "state": "merged",
+    "date": "2026-11-09",
+    "url": "https://github.com/modelscope/evalscope/pull/2029"
+   },
+   {
+    "repo": "modelscope/evalscope",
+    "title": "fix(tool_bench): report Plan.EM under its declared metric name",
+    "state": "merged",
+    "date": "2026-11-09",
+    "url": "https://github.com/modelscope/evalscope/pull/2028"
+   },
+   {
+    "repo": "Unstructured-IO/unstructured",
+    "title": "fix: Hindi and Bengali paragraphs misclassified as Title",
+    "state": "open",
+    "date": "2026-11-11",
+    "url": "https://github.com/Unstructured-IO/unstructured/pull/4695"
+   },
+   {
+    "repo": "docling-project/docling-core",
+    "title": "feat(markdown): add opt-in escape_markdown_syntax to escape block markers and literal asterisks",
+    "state": "open",
+    "date": "2026-11-11",
+    "url": "https://github.com/docling-project/docling-core/pull/1008"
+   },
+   {
+    "repo": "docling-project/docling-core",
+    "title": "fix(markdown): escape all line breaks in table cells and detect the compact-table separator",
+    "state": "open",
+    "date": "2026-11-10",
+    "url": "https://github.com/docling-project/docling-core/pull/1003"
+   },
+   {
+    "repo": "data-privacy-stack/presidio",
+    "title": "feat(analyzer): add Indian driving licence recognizer (IN_DRIVING_LICENCE)",
+    "state": "open",
+    "date": "2026-11-09",
+    "url": "https://github.com/data-privacy-stack/presidio/pull/2466"
+   }
+  ],
+  "listings_found": [
+   "punkpeye/awesome-remote-mcp-servers",
+   "emmabostian/developer-portfolios"
+  ]
+ }
 }

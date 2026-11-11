@@ -6,7 +6,7 @@ Run by .github/workflows/update-profile.yml every night. Locally:
     python tools/spec/build.py --offline  # render from stored data only
 Any fetch that fails keeps the last good value, so the profile never blanks.
 """
-import base64, collections, datetime, html, json, os, sys
+import base64, collections, datetime, html, json, os, sys, urllib.parse
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 TOOLS = os.path.dirname(HERE)
@@ -234,7 +234,7 @@ def card_toolbox_track(c):
 
 
 def card_numbers(c, st):
-    out = [header('05', 'GitHub, by the numbers', f'live from the github api · {st.get("updated", "")}')]
+    out = [header('06', 'GitHub, by the numbers', f'live from the github api · {st.get("updated", "")}')]
     stats = [(st.get('contributions'), 'contributions · last year'), (st.get('commits_year'), 'commits · last year'),
              (st.get('repos'), 'public repos'), (c.get('projects_shipped'), 'projects shipped')]
     cw, top = (W - 80) / 4, 84
@@ -275,22 +275,81 @@ def card_numbers(c, st):
         lab = f'{name} {round(100 * n / total)}%'
         out.append(f'<rect x="{lx:.1f}" y="{y1 + 34}" width="9" height="9" fill="{LANG_COLORS[i]}"/>' + text(lx + 15, y1 + 43, lab, 'm', 11.5))
         lx += 15 + tw(lab, 11.5, 'mono') + 20
-    # topics
-    y2 = y1 + 84
-    out.append(text(40, y2, 'most-used topics across repos', 'm u', 10))
-    tx, ty = 40.0, y2 + 14
-    for t in st.get('topics', [])[:14]:
-        wdt = tw(t, 11.5, 'mono') + 20
-        if tx + wdt > W - 40:
-            tx, ty = 40.0, ty + 34
-        out.append(f'<rect x="{tx:.1f}" y="{ty}" width="{wdt:.1f}" height="24" fill="none" stroke="{LINE}"/>' + text(tx + 10, ty + 16, t, 'm i', 11.5))
-        tx += wdt + 8
+    ty = y1 + 30
     y3 = ty + 56
     out.append(f'<line x1="40" x2="{W - 40}" y1="{y3 - 20}" y2="{y3 - 20}" stroke="{LINE}"/>')
     out.append(text(40, y3, f'streak · {st.get("streak_current", 0)} days current · {st.get("streak_longest", 0)} longest', 'm', 11))
     return svg(y3 + 22, '\n'.join(out), 'GitHub, by the numbers',
                f'{st.get("contributions")} contributions and {st.get("commits_year")} commits in the last year, {st.get("repos")} public repos. '
                'Languages: ' + ', '.join(n for n, _ in langs) + '.')
+
+
+def refresh_oss(st, c):
+    """PRs and issues the user opened on repos they don't own, via the public search API."""
+    cfg = c.get('open_source', {})
+    listings = set(r.lower() for r in cfg.get('listings', []))
+    try:
+        q = urllib.parse.quote(f'is:pr author:{USER} -user:{USER}')
+        items = json.loads(legacy.get(f'https://api.github.com/search/issues?q={q}&per_page=100&sort=created&order=desc'))['items']
+        prs, found = [], []
+        for it in items:
+            repo = it['repository_url'].split('/repos/')[1]
+            if repo.lower() in listings:
+                found.append(repo)
+                continue
+            merged = bool((it.get('pull_request') or {}).get('merged_at'))
+            state = 'merged' if merged else ('open' if it['state'] == 'open' else 'closed')
+            day = ((it.get('pull_request') or {}).get('merged_at') or it['created_at'])[:10]
+            prs.append({'repo': repo, 'title': it['title'], 'state': state, 'date': day, 'url': it['html_url']})
+        qi = urllib.parse.quote(f'is:issue author:{USER} -user:{USER}')
+        issues = json.loads(legacy.get(f'https://api.github.com/search/issues?q={qi}&per_page=1'))['total_count']
+        order = {'merged': 0, 'open': 1, 'closed': 2}
+        prs.sort(key=lambda p: (order[p['state']], [-ord(ch) for ch in p['date']]))
+        st['oss'] = {'merged': sum(p['state'] == 'merged' for p in prs), 'open': sum(p['state'] == 'open' for p in prs),
+                     'issues': issues, 'prs': prs, 'listings_found': found}
+    except Exception as e:
+        print('WARNING: open source not refreshed:', e)
+    return st
+
+
+def card_oss(c, st):
+    o = st.get('oss') or {}
+    cfg = c.get('open_source', {})
+    out = [header('05', 'Open source', 'live from github search')]
+    top = 84
+    cw = (W - 80) / 3
+    out.append(f'<rect x="40" y="{top}" width="{W - 80}" height="78" rx="3" fill="{BG}" stroke="{LINE}"/>')
+    for i, (v, lbl, hot) in enumerate([(o.get('merged', 0), 'prs merged', True), (o.get('open', 0), 'in review', False),
+                                        (o.get('issues', 0), 'issues filed', False)]):
+        x = 40 + i * cw
+        if i:
+            out.append(f'<line x1="{x:.1f}" x2="{x:.1f}" y1="{top}" y2="{top + 78}" stroke="{LINE}"/>')
+        out.append(text(x + 20, top + 40, str(v), 'd' + (' o' if hot else ''), 28))
+        out.append(text(x + 20, top + 62, lbl, 'm u', 10))
+    y = top + 104
+    out.append(f'<line x1="40" x2="{W - 40}" y1="{y}" y2="{y}" stroke="{LINE}"/>')
+    rows = [p for p in o.get('prs', []) if p['state'] != 'closed'][:cfg.get('max_rows', 7)]
+    for p in rows:
+        st_txt = 'merged' if p['state'] == 'merged' else 'in review'
+        out.append(f'<text x="40" y="{y + 30}" class="m u" font-size="10.5" style="fill:{ORANGE if p["state"] == "merged" else MUTED}">{esc(st_txt)}</text>')
+        repo = p['repo'] if len(p['repo']) <= 28 else p['repo'][:27] + '…'
+        out.append(text(140, y + 30, repo, 'm', 12))
+        t = p['title']
+        while tw(t, 14, 'body') > W - 40 - 380 and len(t) > 12:
+            t = t[:-2].rstrip() + '…'
+        out.append(f'<text x="380" y="{y + 30}" class="b" font-size="14" style="fill:{INK}">{esc(t)}</text>')
+        y += 46
+        out.append(f'<line x1="40" x2="{W - 40}" y1="{y}" y2="{y}" stroke="{LINE}"/>')
+    if not rows:
+        out.append(text(40, y + 30, 'first contributions in progress', 'm', 12))
+        y += 46
+    listed = cfg.get('also_listed', []) + [r.split('/')[1] for r in o.get('listings_found', [])]
+    if listed:
+        out.append(text(40, y + 30, 'listed in: ' + ' · '.join(dict.fromkeys(listed)), 'm', 11.5))
+        y += 30
+    return svg(y + 24, '\n'.join(out), 'Open source contributions',
+               f'{o.get("merged", 0)} pull requests merged, {o.get("open", 0)} in review, {o.get("issues", 0)} issues filed. ' +
+               '; '.join(f'{p["repo"]}: {p["title"]} ({p["state"]})' for p in rows))
 
 
 def card_footer(c, st):
@@ -318,12 +377,14 @@ def refresh_topics(st):
     return st
 
 
-def readme(c, stamp):
+def readme(c, stamp, st=None):
     img = lambda name, alt, href=None: (f'<a href="{href}">' if href else '') + \
         f'<img src="assets/spec/{name}.svg?v={stamp}" alt="{esc(alt)}" width="100%">' + ('</a>' if href else '')
     links = ' &nbsp;·&nbsp; '.join(f'[{n}]({u})' for n, u in c['links'])
     sys_links = ' &nbsp;·&nbsp; '.join(f'[{s["name"]}]({s["url"]})' for s in c['systems'])
     notes = ' &nbsp;·&nbsp; '.join(f'[{p["title"]}]({p["url"]})' for p in notes_items(c, [])[0])
+    oss_rows = [p for p in ((st or {}).get('oss') or {}).get('prs', []) if p['state'] != 'closed'][:c.get('open_source', {}).get('max_rows', 7)]
+    oss_links = ' &nbsp;·&nbsp; '.join(f'[{p["repo"].split("/")[1]} #{p["url"].rsplit("/", 1)[1]}]({p["url"]})' for p in oss_rows)
     return f'''<div align="center">
 
 {img("hero", "Shlok Bam. Agents in production, evals that prove it. AI / Generative AI engineer, intern at PharmaACE Innovations, B.Tech IT at VIT Pune.", "https://shlokbam.in")}
@@ -338,7 +399,11 @@ def readme(c, stamp):
 
 {img("toolbox-track", "03 Toolbox and 04 Track record")}
 
-{img("numbers", "05 GitHub by the numbers: contributions, commits, repos, languages and topics")}
+{img("oss", "05 Open source: pull requests to other projects", "https://github.com/search?q=is%3Apr+author%3Ashlokbam+-user%3Ashlokbam&type=pullrequests")}
+
+<sub>{oss_links}</sub>
+
+{img("numbers", "06 GitHub by the numbers: contributions, commits, repos and languages")}
 
 {links}
 
@@ -353,18 +418,18 @@ def main():
     sp, wp = f'{TOOLS}/data/stats.json', f'{TOOLS}/data/writing.json'
     st, journal = json.load(open(sp)), json.load(open(wp))
     if not OFFLINE:
-        st = refresh_topics(legacy.refresh_stats(st))
+        st = refresh_oss(refresh_topics(legacy.refresh_stats(st)), c)
         journal = legacy.refresh_writing(journal)
         json.dump(st, open(sp, 'w'), indent=1)
         json.dump(journal, open(wp, 'w'), indent=1)
     st.setdefault('updated', datetime.date.today().isoformat())
     os.makedirs(OUT, exist_ok=True)
     cards = {'hero': card_hero(c), 'systems': card_systems(c), 'notes': card_notes(c, journal),
-             'toolbox-track': card_toolbox_track(c), 'numbers': card_numbers(c, st), 'footer': card_footer(c, st)}
+             'toolbox-track': card_toolbox_track(c), 'oss': card_oss(c, st), 'numbers': card_numbers(c, st), 'footer': card_footer(c, st)}
     for name, s in cards.items():
         open(f'{OUT}/{name}.svg', 'w').write(s)
         print(f'wrote assets/spec/{name}.svg')
-    open(f'{ROOT}/README.md', 'w').write(readme(c, st['updated'].replace('-', '')))
+    open(f'{ROOT}/README.md', 'w').write(readme(c, st['updated'].replace('-', ''), st))
     print('wrote README.md')
 
 

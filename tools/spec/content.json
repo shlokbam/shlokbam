@@ -185,5 +185,16 @@
    "CodeChef",
    "https://www.codechef.com/users/shlokbam"
   ]
- ]
+ ],
+ "open_source": {
+  "_how": "PRs and issues on other people's repos are fetched daily from GitHub search. Repos in 'listings' are shown on the small 'listed in' line, not as code contributions.",
+  "listings": [
+   "punkpeye/awesome-remote-mcp-servers",
+   "emmabostian/developer-portfolios"
+  ],
+  "also_listed": [
+   "official MCP Registry"
+  ],
+  "max_rows": 7
+ }
 }
