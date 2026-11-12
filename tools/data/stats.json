@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-11",
- "repos": 55,
+ "updated": "2026-11-12",
+ "repos": 57,
  "followers": 6,
  "following": 10,
  "stars": 1,
- "contributions": 939,
+ "contributions": 946,
  "languages": [
   [
    "Python",
@@ -1515,16 +1515,20 @@
   [
    "2026-11-11",
    2
+  ],
+  [
+   "2026-11-12",
+   1
   ]
  ],
- "streak_current": 32,
- "streak_longest": 32,
+ "streak_current": 33,
+ "streak_longest": 33,
  "commits_month": {
   "label": "Nov 2026",
-  "value": 96
+  "value": 97
  },
- "commits_year": 857,
- "pull_requests_year": 16,
+ "commits_year": 858,
+ "pull_requests_year": 18,
  "topics": [
   "generative-ai",
   "fastapi",
@@ -1543,8 +1547,8 @@
  ],
  "oss": {
   "merged": 3,
-  "open": 5,
-  "issues": 8,
+  "open": 7,
+  "issues": 10,
   "prs": [
    {
     "repo": "modelscope/evalscope",
@@ -1566,6 +1570,20 @@
     "state": "merged",
     "date": "2026-11-09",
     "url": "https://github.com/modelscope/evalscope/pull/2028"
+   },
+   {
+    "repo": "open-compass/VLMEvalKit",
+    "title": "fix(matching): do not let VERBOSE change can_infer_option results",
+    "state": "open",
+    "date": "2026-11-12",
+    "url": "https://github.com/open-compass/VLMEvalKit/pull/1862"
+   },
+   {
+    "repo": "truera/trulens",
+    "title": "fix(feedback): prefer a labelled score over other numbers in a judge reply",
+    "state": "open",
+    "date": "2026-11-12",
+    "url": "https://github.com/truera/trulens/pull/3074"
    },
    {
     "repo": "open-compass/opencompass",
