@@ -295,7 +295,8 @@ def refresh_oss(st, c):
         for it in items:
             repo = it['repository_url'].split('/repos/')[1]
             if repo.lower() in listings:
-                found.append(repo)
+                if (it.get('pull_request') or {}).get('merged_at'):
+                    found.append(repo)   # only claim "listed in" once the listing PR is merged
                 continue
             merged = bool((it.get('pull_request') or {}).get('merged_at'))
             state = 'merged' if merged else ('open' if it['state'] == 'open' else 'closed')
@@ -343,6 +344,11 @@ def card_oss(c, st):
     if not rows:
         out.append(text(40, y + 30, 'first contributions in progress', 'm', 12))
         y += 46
+    hidden = len([p for p in o.get('prs', []) if p['state'] != 'closed']) - len(rows)
+    if hidden > 0:
+        out.append(text(W - 40, y + 30, f'+{hidden} more in review', 'm o', 11.5, 'end'))
+        if not (cfg.get('also_listed', []) or o.get('listings_found')):
+            y += 30
     listed = cfg.get('also_listed', []) + [r.split('/')[1] for r in o.get('listings_found', [])]
     if listed:
         out.append(text(40, y + 30, 'listed in: ' + ' · '.join(dict.fromkeys(listed)), 'm', 11.5))
@@ -377,9 +383,18 @@ def refresh_topics(st):
     return st
 
 
+def _ver(name, stamp):
+    """Hash of the card itself, so GitHub's image cache refreshes whenever the card changes, even twice a day."""
+    try:
+        import hashlib
+        return hashlib.sha1(open(f'{OUT}/{name}.svg', 'rb').read()).hexdigest()[:10]
+    except OSError:
+        return stamp
+
+
 def readme(c, stamp, st=None):
     img = lambda name, alt, href=None: (f'<a href="{href}">' if href else '') + \
-        f'<img src="assets/spec/{name}.svg?v={stamp}" alt="{esc(alt)}" width="100%">' + ('</a>' if href else '')
+        f'<img src="assets/spec/{name}.svg?v={_ver(name, stamp)}" alt="{esc(alt)}" width="100%">' + ('</a>' if href else '')
     links = ' &nbsp;·&nbsp; '.join(f'[{n}]({u})' for n, u in c['links'])
     sys_links = ' &nbsp;·&nbsp; '.join(f'[{s["name"]}]({s["url"]})' for s in c['systems'])
     notes = ' &nbsp;·&nbsp; '.join(f'[{p["title"]}]({p["url"]})' for p in notes_items(c, [])[0])
