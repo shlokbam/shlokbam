@@ -1,10 +1,10 @@
 {
  "updated": "2026-11-13",
- "repos": 57,
+ "repos": 58,
  "followers": 6,
  "following": 10,
  "stars": 1,
- "contributions": 1020,
+ "contributions": 1027,
  "languages": [
   [
    "Python",
@@ -1522,16 +1522,16 @@
   ],
   [
    "2026-11-13",
-   0
+   1
   ]
  ],
- "streak_current": 33,
- "streak_longest": 33,
+ "streak_current": 34,
+ "streak_longest": 34,
  "commits_month": {
   "label": "Nov 2026",
-  "value": 166
+  "value": 170
  },
- "commits_year": 932,
+ "commits_year": 936,
  "pull_requests_year": 18,
  "topics": [
   "generative-ai",
@@ -1552,7 +1552,7 @@
  "oss": {
   "merged": 3,
   "open": 7,
-  "issues": 10,
+  "issues": 12,
   "prs": [
    {
     "repo": "modelscope/evalscope",
@@ -1626,7 +1626,6 @@
    }
   ],
   "listings_found": [
-   "punkpeye/awesome-remote-mcp-servers",
    "emmabostian/developer-portfolios"
   ]
  }
