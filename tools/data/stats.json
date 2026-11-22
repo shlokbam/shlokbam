@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-21",
- "repos": 61,
+ "updated": "2026-11-22",
+ "repos": 62,
  "followers": 6,
  "following": 9,
  "stars": 1,
- "contributions": 1061,
+ "contributions": 1064,
  "languages": [
   [
    "Python",
@@ -44,34 +44,6 @@
   ]
  ],
  "calendar": [
-  [
-   "2025-11-16",
-   0
-  ],
-  [
-   "2025-11-17",
-   0
-  ],
-  [
-   "2025-11-18",
-   0
-  ],
-  [
-   "2025-11-19",
-   0
-  ],
-  [
-   "2025-11-20",
-   0
-  ],
-  [
-   "2025-11-21",
-   0
-  ],
-  [
-   "2025-11-22",
-   0
-  ],
   [
    "2025-11-23",
    0
@@ -1527,16 +1499,20 @@
   [
    "2026-11-21",
    1
+  ],
+  [
+   "2026-11-22",
+   1
   ]
  ],
- "streak_current": 42,
- "streak_longest": 42,
+ "streak_current": 43,
+ "streak_longest": 43,
  "commits_month": {
   "label": "Nov 2026",
-  "value": 194
+  "value": 195
  },
- "commits_year": 960,
- "pull_requests_year": 21,
+ "commits_year": 961,
+ "pull_requests_year": 22,
  "topics": [
   "generative-ai",
   "fastapi",
@@ -1555,7 +1531,7 @@
  ],
  "oss": {
   "merged": 3,
-  "open": 10,
+  "open": 11,
   "issues": 15,
   "prs": [
    {
@@ -1578,6 +1554,13 @@
     "state": "merged",
     "date": "2026-11-09",
     "url": "https://github.com/modelscope/evalscope/pull/2028"
+   },
+   {
+    "repo": "qdrant/mcp-server-qdrant",
+    "title": "fix(mcp): name the error type when a tool error has no message",
+    "state": "open",
+    "date": "2026-11-22",
+    "url": "https://github.com/qdrant/mcp-server-qdrant/pull/211"
    },
    {
     "repo": "strands-agents/harness-sdk",
