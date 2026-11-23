@@ -16,10 +16,10 @@
 
 <sub>[evalscope #2049](https://github.com/modelscope/evalscope/pull/2049) &nbsp;·&nbsp; [evalscope #2029](https://github.com/modelscope/evalscope/pull/2029) &nbsp;·&nbsp; [evalscope #2028](https://github.com/modelscope/evalscope/pull/2028) &nbsp;·&nbsp; [mcp-server-qdrant #211](https://github.com/qdrant/mcp-server-qdrant/pull/211) &nbsp;·&nbsp; [harness-sdk #6187](https://github.com/strands-agents/harness-sdk/pull/6187) &nbsp;·&nbsp; [semchunk #32](https://github.com/isaacus-dev/semchunk/pull/32) &nbsp;·&nbsp; [llama_index #24267](https://github.com/run-llama/llama_index/pull/24267)</sub>
 
-<img src="assets/spec/numbers.svg?v=87a5954aaa" alt="06 GitHub by the numbers: contributions, commits, repos and languages" width="100%">
+<img src="assets/spec/numbers.svg?v=6c2b3ffc49" alt="06 GitHub by the numbers: contributions, commits, repos and languages" width="100%">
 
 [shlokbam.in](https://shlokbam.in) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/shlokbam/) &nbsp;·&nbsp; [Journal](https://journal-murex-three.vercel.app/) &nbsp;·&nbsp; [Résumé (PDF)](Shlok_Bam_Resume.pdf) &nbsp;·&nbsp; [Email](mailto:shlokbam19103@gmail.com) &nbsp;·&nbsp; [LeetCode](https://leetcode.com/u/shlokbam05/) &nbsp;·&nbsp; [CodeChef](https://www.codechef.com/users/shlokbam)
 
-<img src="assets/spec/footer.svg?v=6573757a07" alt="Regenerated nightly by GitHub Actions" width="100%">
+<img src="assets/spec/footer.svg?v=27abe8540a" alt="Regenerated nightly by GitHub Actions" width="100%">
 
 </div>
