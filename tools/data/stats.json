@@ -1,10 +1,10 @@
 {
  "updated": "2026-11-23",
- "repos": 63,
+ "repos": 64,
  "followers": 6,
  "following": 9,
  "stars": 1,
- "contributions": 1073,
+ "contributions": 1077,
  "languages": [
   [
    "Python",
@@ -1513,10 +1513,10 @@
  "streak_longest": 44,
  "commits_month": {
   "label": "Nov 2026",
-  "value": 200
+  "value": 202
  },
- "commits_year": 966,
- "pull_requests_year": 23,
+ "commits_year": 967,
+ "pull_requests_year": 24,
  "topics": [
   "generative-ai",
   "fastapi",
@@ -1534,10 +1534,17 @@
   "aws"
  ],
  "oss": {
-  "merged": 4,
+  "merged": 5,
   "open": 11,
-  "issues": 16,
+  "issues": 17,
   "prs": [
+   {
+    "repo": "qdrant/mcp-server-qdrant",
+    "title": "fix(mcp): name the error type when a tool error has no message",
+    "state": "merged",
+    "date": "2026-11-23",
+    "url": "https://github.com/qdrant/mcp-server-qdrant/pull/211"
+   },
    {
     "repo": "open-compass/VLMEvalKit",
     "title": "fix(matching): do not let VERBOSE change can_infer_option results",
@@ -1567,18 +1574,18 @@
     "url": "https://github.com/modelscope/evalscope/pull/2028"
    },
    {
+    "repo": "docling-project/docling",
+    "title": "fix(html): keep the content of a details tag inside its table cell",
+    "state": "open",
+    "date": "2026-11-23",
+    "url": "https://github.com/docling-project/docling/pull/5545"
+   },
+   {
     "repo": "openlit/openlit",
     "title": "fix(python-sdk): accept a list of types in the schema guard",
     "state": "open",
     "date": "2026-11-23",
     "url": "https://github.com/openlit/openlit/pull/1998"
-   },
-   {
-    "repo": "qdrant/mcp-server-qdrant",
-    "title": "fix(mcp): name the error type when a tool error has no message",
-    "state": "open",
-    "date": "2026-11-22",
-    "url": "https://github.com/qdrant/mcp-server-qdrant/pull/211"
    },
    {
     "repo": "strands-agents/harness-sdk",
