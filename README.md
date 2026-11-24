@@ -16,10 +16,10 @@
 
 <sub>[mcp-server-qdrant #211](https://github.com/qdrant/mcp-server-qdrant/pull/211) &nbsp;·&nbsp; [VLMEvalKit #1862](https://github.com/open-compass/VLMEvalKit/pull/1862) &nbsp;·&nbsp; [evalscope #2049](https://github.com/modelscope/evalscope/pull/2049) &nbsp;·&nbsp; [evalscope #2029](https://github.com/modelscope/evalscope/pull/2029) &nbsp;·&nbsp; [evalscope #2028](https://github.com/modelscope/evalscope/pull/2028) &nbsp;·&nbsp; [docling #5545](https://github.com/docling-project/docling/pull/5545) &nbsp;·&nbsp; [openlit #1998](https://github.com/openlit/openlit/pull/1998)</sub>
 
-<img src="assets/spec/numbers.svg?v=643f8e874a" alt="06 GitHub by the numbers: contributions, commits, repos and languages" width="100%">
+<img src="assets/spec/numbers.svg?v=7c5aa4ce4a" alt="06 GitHub by the numbers: contributions, commits, repos and languages" width="100%">
 
 [shlokbam.in](https://shlokbam.in) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/shlokbam/) &nbsp;·&nbsp; [Journal](https://journal-murex-three.vercel.app/) &nbsp;·&nbsp; [Résumé (PDF)](Shlok_Bam_Resume.pdf) &nbsp;·&nbsp; [Email](mailto:shlokbam19103@gmail.com) &nbsp;·&nbsp; [LeetCode](https://leetcode.com/u/shlokbam05/) &nbsp;·&nbsp; [CodeChef](https://www.codechef.com/users/shlokbam)
 
-<img src="assets/spec/footer.svg?v=27abe8540a" alt="Regenerated nightly by GitHub Actions" width="100%">
+<img src="assets/spec/footer.svg?v=74a5d59cec" alt="Regenerated nightly by GitHub Actions" width="100%">
 
 </div>
