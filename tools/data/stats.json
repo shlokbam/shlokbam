@@ -1,10 +1,10 @@
 {
  "updated": "2026-11-24",
- "repos": 64,
+ "repos": 66,
  "followers": 6,
  "following": 9,
  "stars": 1,
- "contributions": 1079,
+ "contributions": 1086,
  "languages": [
   [
    "Python",
@@ -1517,10 +1517,10 @@
  "streak_longest": 45,
  "commits_month": {
   "label": "Nov 2026",
-  "value": 203
+  "value": 205
  },
- "commits_year": 969,
- "pull_requests_year": 24,
+ "commits_year": 971,
+ "pull_requests_year": 26,
  "topics": [
   "generative-ai",
   "fastapi",
@@ -1538,10 +1538,17 @@
   "aws"
  ],
  "oss": {
-  "merged": 5,
-  "open": 11,
-  "issues": 17,
+  "merged": 6,
+  "open": 12,
+  "issues": 18,
   "prs": [
+   {
+    "repo": "docling-project/docling",
+    "title": "fix(html): keep the content of a details tag inside its table cell",
+    "state": "merged",
+    "date": "2026-11-24",
+    "url": "https://github.com/docling-project/docling/pull/5545"
+   },
    {
     "repo": "qdrant/mcp-server-qdrant",
     "title": "fix(mcp): name the error type when a tool error has no message",
@@ -1578,11 +1585,18 @@
     "url": "https://github.com/modelscope/evalscope/pull/2028"
    },
    {
-    "repo": "docling-project/docling",
-    "title": "fix(html): keep the content of a details tag inside its table cell",
+    "repo": "oraios/serena",
+    "title": "Fix nested .gitignore patterns with a slash in the middle matching too deep",
     "state": "open",
-    "date": "2026-11-23",
-    "url": "https://github.com/docling-project/docling/pull/5545"
+    "date": "2026-11-24",
+    "url": "https://github.com/oraios/serena/pull/2299"
+   },
+   {
+    "repo": "open-webui/mcpo",
+    "title": "fix: explicit null tool arguments are dropped",
+    "state": "open",
+    "date": "2026-11-24",
+    "url": "https://github.com/open-webui/mcpo/pull/332"
    },
    {
     "repo": "openlit/openlit",
