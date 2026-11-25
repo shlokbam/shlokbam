@@ -1,10 +1,10 @@
 {
  "updated": "2026-11-25",
- "repos": 66,
- "followers": 6,
+ "repos": 69,
+ "followers": 5,
  "following": 9,
  "stars": 1,
- "contributions": 1087,
+ "contributions": 1100,
  "languages": [
   [
    "Python",
@@ -1514,17 +1514,17 @@
   ],
   [
    "2026-11-25",
-   0
+   1
   ]
  ],
- "streak_current": 45,
- "streak_longest": 45,
+ "streak_current": 46,
+ "streak_longest": 46,
  "commits_month": {
   "label": "Nov 2026",
-  "value": 206
+  "value": 210
  },
- "commits_year": 972,
- "pull_requests_year": 26,
+ "commits_year": 976,
+ "pull_requests_year": 29,
  "topics": [
   "generative-ai",
   "fastapi",
@@ -1543,8 +1543,8 @@
  ],
  "oss": {
   "merged": 6,
-  "open": 12,
-  "issues": 18,
+  "open": 15,
+  "issues": 21,
   "prs": [
    {
     "repo": "docling-project/docling",
@@ -1587,6 +1587,27 @@
     "state": "merged",
     "date": "2026-11-09",
     "url": "https://github.com/modelscope/evalscope/pull/2028"
+   },
+   {
+    "repo": "vespa-engine/pyvespa",
+    "title": "fix: escape quotes and backslashes in query builder strings",
+    "state": "open",
+    "date": "2026-11-25",
+    "url": "https://github.com/vespa-engine/pyvespa/pull/1414"
+   },
+   {
+    "repo": "evalstate/fast-agent",
+    "title": "fix: attach UTF-8 files with an unregistered extension as text",
+    "state": "open",
+    "date": "2026-11-25",
+    "url": "https://github.com/evalstate/fast-agent/pull/1115"
+   },
+   {
+    "repo": "i-am-bee/beeai-framework",
+    "title": "fix(tools): support self-referencing component schemas in OpenAPITool",
+    "state": "open",
+    "date": "2026-11-25",
+    "url": "https://github.com/i-am-bee/beeai-framework/pull/2012"
    },
    {
     "repo": "oraios/serena",
