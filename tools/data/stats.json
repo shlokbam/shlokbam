@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "repos": 69,
  "followers": 5,
  "following": 9,
  "stars": 1,
- "contributions": 1100,
+ "contributions": 1102,
  "languages": [
   [
    "Python",
@@ -1515,15 +1515,19 @@
   [
    "2026-11-25",
    1
+  ],
+  [
+   "2026-11-26",
+   1
   ]
  ],
- "streak_current": 46,
- "streak_longest": 46,
+ "streak_current": 47,
+ "streak_longest": 47,
  "commits_month": {
   "label": "Nov 2026",
-  "value": 210
+  "value": 212
  },
- "commits_year": 976,
+ "commits_year": 978,
  "pull_requests_year": 29,
  "topics": [
   "generative-ai",
@@ -1542,10 +1546,17 @@
   "aws"
  ],
  "oss": {
-  "merged": 6,
-  "open": 15,
+  "merged": 7,
+  "open": 14,
   "issues": 21,
   "prs": [
+   {
+    "repo": "evalstate/fast-agent",
+    "title": "fix: attach UTF-8 files with an unregistered extension as text",
+    "state": "merged",
+    "date": "2026-11-25",
+    "url": "https://github.com/evalstate/fast-agent/pull/1115"
+   },
    {
     "repo": "docling-project/docling",
     "title": "fix(html): keep the content of a details tag inside its table cell",
@@ -1594,13 +1605,6 @@
     "state": "open",
     "date": "2026-11-25",
     "url": "https://github.com/vespa-engine/pyvespa/pull/1414"
-   },
-   {
-    "repo": "evalstate/fast-agent",
-    "title": "fix: attach UTF-8 files with an unregistered extension as text",
-    "state": "open",
-    "date": "2026-11-25",
-    "url": "https://github.com/evalstate/fast-agent/pull/1115"
    },
    {
     "repo": "i-am-bee/beeai-framework",
