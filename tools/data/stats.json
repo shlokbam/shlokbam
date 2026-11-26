@@ -1,10 +1,10 @@
 {
  "updated": "2026-11-26",
- "repos": 69,
+ "repos": 72,
  "followers": 5,
  "following": 9,
  "stars": 1,
- "contributions": 1102,
+ "contributions": 1114,
  "languages": [
   [
    "Python",
@@ -1525,10 +1525,10 @@
  "streak_longest": 47,
  "commits_month": {
   "label": "Nov 2026",
-  "value": 212
+  "value": 213
  },
- "commits_year": 978,
- "pull_requests_year": 29,
+ "commits_year": 979,
+ "pull_requests_year": 33,
  "topics": [
   "generative-ai",
   "fastapi",
@@ -1547,8 +1547,8 @@
  ],
  "oss": {
   "merged": 7,
-  "open": 14,
-  "issues": 21,
+  "open": 18,
+  "issues": 25,
   "prs": [
    {
     "repo": "evalstate/fast-agent",
@@ -1598,6 +1598,34 @@
     "state": "merged",
     "date": "2026-11-09",
     "url": "https://github.com/modelscope/evalscope/pull/2028"
+   },
+   {
+    "repo": "opensearch-project/opensearch-py",
+    "title": "Fix serializing numpy datetime64 values with nanosecond precision",
+    "state": "open",
+    "date": "2026-11-26",
+    "url": "https://github.com/opensearch-project/opensearch-py/pull/1125"
+   },
+   {
+    "repo": "mozilla-ai/any-llm",
+    "title": "fix(messages): convert document blocks in user content",
+    "state": "open",
+    "date": "2026-11-26",
+    "url": "https://github.com/mozilla-ai/any-llm/pull/1679"
+   },
+   {
+    "repo": "apify/crawlee-python",
+    "title": "fix: apply robots.txt rules to URLs that spell out the default port",
+    "state": "open",
+    "date": "2026-11-26",
+    "url": "https://github.com/apify/crawlee-python/pull/2533"
+   },
+   {
+    "repo": "apify/crawlee-python",
+    "title": "fix: keep robots.txt rules when the file has bytes that are not UTF-8",
+    "state": "open",
+    "date": "2026-11-26",
+    "url": "https://github.com/apify/crawlee-python/pull/2531"
    },
    {
     "repo": "vespa-engine/pyvespa",
