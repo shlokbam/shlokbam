@@ -2,7 +2,7 @@
 
 <a href="https://shlokbam.in"><img src="assets/spec/hero.svg?v=98d1f2a9bb" alt="Shlok Bam. Agents in production, evals that prove it. AI / Generative AI engineer, intern at PharmaACE Innovations, B.Tech IT at VIT Pune." width="100%"></a>
 
-<img src="assets/spec/systems.svg?v=7f4d7c0dea" alt="01 Systems in production: DailyDiff, Portfolio MCP server, LLM-RAG-Evaluation, PromptVault" width="100%">
+<img src="assets/spec/systems.svg?v=db4d22cb8e" alt="01 Systems in production: DailyDiff, Portfolio MCP server, LLM-RAG-Evaluation, PromptVault" width="100%">
 
 <sub>[DailyDiff](https://dailydiff.in) &nbsp;·&nbsp; [Portfolio as an API](https://shlokbam.in/ai) &nbsp;·&nbsp; [LLM-RAG-Evaluation](https://github.com/shlokbam/LLM-RAG-Evaluation) &nbsp;·&nbsp; [PromptVault](https://github.com/shlokbam/PromptVault)</sub>
 
@@ -12,11 +12,11 @@
 
 <img src="assets/spec/toolbox-track.svg?v=e4fd2134ef" alt="03 Toolbox and 04 Track record" width="100%">
 
-<a href="https://github.com/search?q=is%3Apr+author%3Ashlokbam+-user%3Ashlokbam&type=pullrequests"><img src="assets/spec/oss.svg?v=75170c5034" alt="05 Open source: pull requests to other projects" width="100%"></a>
+<a href="https://github.com/search?q=is%3Apr+author%3Ashlokbam+-user%3Ashlokbam&type=pullrequests"><img src="assets/spec/oss.svg?v=61f16f6528" alt="05 Open source: pull requests to other projects" width="100%"></a>
 
-<sub>[beeai-framework #2012](https://github.com/i-am-bee/beeai-framework/pull/2012) &nbsp;·&nbsp; [fast-agent #1115](https://github.com/evalstate/fast-agent/pull/1115) &nbsp;·&nbsp; [docling #5545](https://github.com/docling-project/docling/pull/5545) &nbsp;·&nbsp; [mcp-server-qdrant #211](https://github.com/qdrant/mcp-server-qdrant/pull/211) &nbsp;·&nbsp; [VLMEvalKit #1862](https://github.com/open-compass/VLMEvalKit/pull/1862) &nbsp;·&nbsp; [evalscope #2049](https://github.com/modelscope/evalscope/pull/2049) &nbsp;·&nbsp; [evalscope #2029](https://github.com/modelscope/evalscope/pull/2029)</sub>
+<sub>[crawlee-python #2533](https://github.com/apify/crawlee-python/pull/2533) &nbsp;·&nbsp; [crawlee-python #2531](https://github.com/apify/crawlee-python/pull/2531) &nbsp;·&nbsp; [pyvespa #1414](https://github.com/vespa-engine/pyvespa/pull/1414) &nbsp;·&nbsp; [beeai-framework #2012](https://github.com/i-am-bee/beeai-framework/pull/2012) &nbsp;·&nbsp; [fast-agent #1115](https://github.com/evalstate/fast-agent/pull/1115) &nbsp;·&nbsp; [docling #5545](https://github.com/docling-project/docling/pull/5545) &nbsp;·&nbsp; [mcp-server-qdrant #211](https://github.com/qdrant/mcp-server-qdrant/pull/211)</sub>
 
-<img src="assets/spec/numbers.svg?v=f7a1163abc" alt="06 GitHub by the numbers: contributions, commits, repos and languages" width="100%">
+<img src="assets/spec/numbers.svg?v=78412b4877" alt="06 GitHub by the numbers: contributions, commits, repos and languages" width="100%">
 
 [shlokbam.in](https://shlokbam.in) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/shlokbam/) &nbsp;·&nbsp; [Journal](https://journal-murex-three.vercel.app/) &nbsp;·&nbsp; [Résumé (PDF)](Shlok_Bam_Resume.pdf) &nbsp;·&nbsp; [Email](mailto:shlokbam19103@gmail.com) &nbsp;·&nbsp; [LeetCode](https://leetcode.com/u/shlokbam05/) &nbsp;·&nbsp; [CodeChef](https://www.codechef.com/users/shlokbam)
 

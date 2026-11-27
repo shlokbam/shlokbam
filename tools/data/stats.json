@@ -1,10 +1,10 @@
 {
  "updated": "2026-11-27",
- "repos": 72,
+ "repos": 74,
  "followers": 5,
  "following": 9,
  "stars": 1,
- "contributions": 1114,
+ "contributions": 1127,
  "languages": [
   [
    "Python",
@@ -1519,16 +1519,20 @@
   [
    "2026-11-26",
    1
+  ],
+  [
+   "2026-11-27",
+   1
   ]
  ],
- "streak_current": 47,
- "streak_longest": 47,
+ "streak_current": 48,
+ "streak_longest": 48,
  "commits_month": {
   "label": "Nov 2026",
-  "value": 215
+  "value": 220
  },
- "commits_year": 981,
- "pull_requests_year": 33,
+ "commits_year": 986,
+ "pull_requests_year": 35,
  "topics": [
   "generative-ai",
   "fastapi",
@@ -1546,10 +1550,31 @@
   "aws"
  ],
  "oss": {
-  "merged": 8,
-  "open": 17,
-  "issues": 25,
+  "merged": 11,
+  "open": 16,
+  "issues": 26,
   "prs": [
+   {
+    "repo": "apify/crawlee-python",
+    "title": "fix: Apply `robots.txt` rules to URLs with the default port",
+    "state": "merged",
+    "date": "2026-11-27",
+    "url": "https://github.com/apify/crawlee-python/pull/2533"
+   },
+   {
+    "repo": "apify/crawlee-python",
+    "title": "fix: Keep `robots.txt` rules when the file is not valid UTF-8",
+    "state": "merged",
+    "date": "2026-11-27",
+    "url": "https://github.com/apify/crawlee-python/pull/2531"
+   },
+   {
+    "repo": "vespa-engine/pyvespa",
+    "title": "fix: escape quotes and backslashes in query builder strings",
+    "state": "merged",
+    "date": "2026-11-27",
+    "url": "https://github.com/vespa-engine/pyvespa/pull/1414"
+   },
    {
     "repo": "i-am-bee/beeai-framework",
     "title": "fix(tools): support self-referencing component schemas in OpenAPITool",
@@ -1607,6 +1632,20 @@
     "url": "https://github.com/modelscope/evalscope/pull/2028"
    },
    {
+    "repo": "dynamiq-ai/dynamiq",
+    "title": "fix(splitters): don't read headers from indented code in MarkdownHeaderSplitter",
+    "state": "open",
+    "date": "2026-11-27",
+    "url": "https://github.com/dynamiq-ai/dynamiq/pull/1174"
+   },
+   {
+    "repo": "taylorwilsdon/google_workspace_mcp",
+    "title": "fix(gdocs): restart nested list numbering under each parent item",
+    "state": "open",
+    "date": "2026-11-27",
+    "url": "https://github.com/taylorwilsdon/google_workspace_mcp/pull/1441"
+   },
+   {
     "repo": "opensearch-project/opensearch-py",
     "title": "Fix serializing numpy datetime64 values with nanosecond precision",
     "state": "open",
@@ -1619,27 +1658,6 @@
     "state": "open",
     "date": "2026-11-26",
     "url": "https://github.com/mozilla-ai/any-llm/pull/1679"
-   },
-   {
-    "repo": "apify/crawlee-python",
-    "title": "fix: apply robots.txt rules to URLs that spell out the default port",
-    "state": "open",
-    "date": "2026-11-26",
-    "url": "https://github.com/apify/crawlee-python/pull/2533"
-   },
-   {
-    "repo": "apify/crawlee-python",
-    "title": "fix: keep robots.txt rules when the file has bytes that are not UTF-8",
-    "state": "open",
-    "date": "2026-11-26",
-    "url": "https://github.com/apify/crawlee-python/pull/2531"
-   },
-   {
-    "repo": "vespa-engine/pyvespa",
-    "title": "fix: escape quotes and backslashes in query builder strings",
-    "state": "open",
-    "date": "2026-11-25",
-    "url": "https://github.com/vespa-engine/pyvespa/pull/1414"
    },
    {
     "repo": "oraios/serena",
