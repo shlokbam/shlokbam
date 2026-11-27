@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "repos": 72,
  "followers": 5,
  "following": 9,
@@ -1525,9 +1525,9 @@
  "streak_longest": 47,
  "commits_month": {
   "label": "Nov 2026",
-  "value": 213
+  "value": 215
  },
- "commits_year": 979,
+ "commits_year": 981,
  "pull_requests_year": 33,
  "topics": [
   "generative-ai",
@@ -1546,10 +1546,17 @@
   "aws"
  ],
  "oss": {
-  "merged": 7,
-  "open": 18,
+  "merged": 8,
+  "open": 17,
   "issues": 25,
   "prs": [
+   {
+    "repo": "i-am-bee/beeai-framework",
+    "title": "fix(tools): support self-referencing component schemas in OpenAPITool",
+    "state": "merged",
+    "date": "2026-11-26",
+    "url": "https://github.com/i-am-bee/beeai-framework/pull/2012"
+   },
    {
     "repo": "evalstate/fast-agent",
     "title": "fix: attach UTF-8 files with an unregistered extension as text",
@@ -1633,13 +1640,6 @@
     "state": "open",
     "date": "2026-11-25",
     "url": "https://github.com/vespa-engine/pyvespa/pull/1414"
-   },
-   {
-    "repo": "i-am-bee/beeai-framework",
-    "title": "fix(tools): support self-referencing component schemas in OpenAPITool",
-    "state": "open",
-    "date": "2026-11-25",
-    "url": "https://github.com/i-am-bee/beeai-framework/pull/2012"
    },
    {
     "repo": "oraios/serena",

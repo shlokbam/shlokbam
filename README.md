@@ -12,14 +12,14 @@
 
 <img src="assets/spec/toolbox-track.svg?v=e4fd2134ef" alt="03 Toolbox and 04 Track record" width="100%">
 
-<a href="https://github.com/search?q=is%3Apr+author%3Ashlokbam+-user%3Ashlokbam&type=pullrequests"><img src="assets/spec/oss.svg?v=5bec064bb7" alt="05 Open source: pull requests to other projects" width="100%"></a>
+<a href="https://github.com/search?q=is%3Apr+author%3Ashlokbam+-user%3Ashlokbam&type=pullrequests"><img src="assets/spec/oss.svg?v=75170c5034" alt="05 Open source: pull requests to other projects" width="100%"></a>
 
-<sub>[fast-agent #1115](https://github.com/evalstate/fast-agent/pull/1115) &nbsp;·&nbsp; [docling #5545](https://github.com/docling-project/docling/pull/5545) &nbsp;·&nbsp; [mcp-server-qdrant #211](https://github.com/qdrant/mcp-server-qdrant/pull/211) &nbsp;·&nbsp; [VLMEvalKit #1862](https://github.com/open-compass/VLMEvalKit/pull/1862) &nbsp;·&nbsp; [evalscope #2049](https://github.com/modelscope/evalscope/pull/2049) &nbsp;·&nbsp; [evalscope #2029](https://github.com/modelscope/evalscope/pull/2029) &nbsp;·&nbsp; [evalscope #2028](https://github.com/modelscope/evalscope/pull/2028)</sub>
+<sub>[beeai-framework #2012](https://github.com/i-am-bee/beeai-framework/pull/2012) &nbsp;·&nbsp; [fast-agent #1115](https://github.com/evalstate/fast-agent/pull/1115) &nbsp;·&nbsp; [docling #5545](https://github.com/docling-project/docling/pull/5545) &nbsp;·&nbsp; [mcp-server-qdrant #211](https://github.com/qdrant/mcp-server-qdrant/pull/211) &nbsp;·&nbsp; [VLMEvalKit #1862](https://github.com/open-compass/VLMEvalKit/pull/1862) &nbsp;·&nbsp; [evalscope #2049](https://github.com/modelscope/evalscope/pull/2049) &nbsp;·&nbsp; [evalscope #2029](https://github.com/modelscope/evalscope/pull/2029)</sub>
 
-<img src="assets/spec/numbers.svg?v=04450a3333" alt="06 GitHub by the numbers: contributions, commits, repos and languages" width="100%">
+<img src="assets/spec/numbers.svg?v=f7a1163abc" alt="06 GitHub by the numbers: contributions, commits, repos and languages" width="100%">
 
 [shlokbam.in](https://shlokbam.in) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/shlokbam/) &nbsp;·&nbsp; [Journal](https://journal-murex-three.vercel.app/) &nbsp;·&nbsp; [Résumé (PDF)](Shlok_Bam_Resume.pdf) &nbsp;·&nbsp; [Email](mailto:shlokbam19103@gmail.com) &nbsp;·&nbsp; [LeetCode](https://leetcode.com/u/shlokbam05/) &nbsp;·&nbsp; [CodeChef](https://www.codechef.com/users/shlokbam)
 
-<img src="assets/spec/footer.svg?v=a06411e328" alt="Regenerated nightly by GitHub Actions" width="100%">
+<img src="assets/spec/footer.svg?v=bb85645378" alt="Regenerated nightly by GitHub Actions" width="100%">
 
 </div>
